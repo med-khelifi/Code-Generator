@@ -79,7 +79,7 @@ namespace CodeGenerator_Project.Forms
                     try
                     {
                         // Get table columns
-                        var columns = await clsConnection.GetTableColumns(DatabaseName, tableName);
+                        var columns = await clsConnection.GetTableColumns(tableName);
 
                         // Validate columns
                         if (columns == null || columns.Count == 0)

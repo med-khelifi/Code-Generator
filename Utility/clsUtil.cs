@@ -85,8 +85,6 @@ namespace CodeGenerator_Project.Utility
             }
         }
 
-
-
         public static string ConvertSqlTypeToCSharp(string sqlType, bool isNullable)
         {
             string type = sqlType.ToLower();
@@ -139,6 +137,80 @@ namespace CodeGenerator_Project.Utility
             }
 
             return isNullable && type != "string" && type != "object" ? type + "?" : type;
+        }
+
+        public static string GenerateConversionExpression(string sqlType, string value)
+        {
+            string type = sqlType.ToLower();
+            string conversionExpression;
+
+            switch (type)
+            {
+                case "int":
+                    conversionExpression = $"Convert.ToInt32({value})";
+                    break;
+                case "bigint":
+                case "long":
+                    conversionExpression = $"Convert.ToInt64({value})";
+                    break;
+                case "smallint":
+                case "short":
+                    conversionExpression = $"Convert.ToInt16({value})";
+                    break;
+                case "tinyint":
+                case "byte":
+                    conversionExpression = $"Convert.ToByte({value})";
+                    break;
+                case "bit":
+                case "boolean":
+                    conversionExpression = $"Convert.ToBoolean({value})";
+                    break;
+                case "decimal":
+                case "numeric":
+                    conversionExpression = $"Convert.ToDecimal({value})";
+                    break;
+                case "money":
+                case "smallmoney":
+                    conversionExpression = $"Convert.ToDecimal({value})";
+                    break;
+                case "float":
+                    conversionExpression = $"Convert.ToDouble({value})";
+                    break;
+                case "real":
+                    conversionExpression = $"Convert.ToSingle({value})";
+                    break;
+                case "datetime":
+                case "smalldatetime":
+                case "date":
+                case "datetime2":
+                case "time":
+                    conversionExpression = $"Convert.ToDateTime({value})";
+                    break;
+                case "char":
+                    conversionExpression = $"(char){value}";//$"({value} == DBNull.Value ? null : {value}.ToString())";
+                    break;
+                case "varchar":
+                case "nvarchar":
+                case "text":
+                case "ntext":
+                case "string":
+                    conversionExpression = $"{value}.ToString()"; ;
+                    break;
+                case "uniqueidentifier":
+                    conversionExpression = $"Guid.Parse({value}.ToString())";
+                    break;
+                case "binary":
+                case "varbinary":
+                case "image":
+                case "timestamp":
+                    conversionExpression = $"({value} as byte[]) ?? new byte[0]";
+                    break;
+                default:
+                    conversionExpression = $"{value}"; // No conversion, treat as an object
+                    break;
+            }
+
+            return conversionExpression;
         }
 
         public static string GetDefaultValue(string sqlType, bool isNullable)

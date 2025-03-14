@@ -12,7 +12,11 @@ namespace CodeGenerator_Project.Connection
 {
     public static class clsConnection
     {
+        
         private static string ConnectionString { get; set; } = string.Empty;
+        private static string LoginConnectionString { get; set; } = string.Empty;
+
+        private static string ServerName, UserID, Password,DataBaseName;
         public static async Task<bool> Connect(string server, string user, string password)
         {
             string connectionString = $"Server={server};User Id={user};Password={password};";
@@ -24,7 +28,10 @@ namespace CodeGenerator_Project.Connection
                 {
                     await conn.OpenAsync();
                     connect = true;
-                    ConnectionString = connectionString;
+                    LoginConnectionString = connectionString;
+                    ServerName = server;
+                    UserID = user;
+                    Password = password;
                 }
             }
             catch (Exception ex)
@@ -40,7 +47,7 @@ namespace CodeGenerator_Project.Connection
 
             try
             {
-                using (SqlConnection conn = new SqlConnection(ConnectionString))
+                using (SqlConnection conn = new SqlConnection(LoginConnectionString))
                 {
                     await conn.OpenAsync(); // Ensure the connection is open
 
@@ -66,16 +73,17 @@ namespace CodeGenerator_Project.Connection
         public static async Task<List<string>> GetTablesNameList(string databaseName)
         {
             List<string> tables = new List<string>();
-            //string connectionString = $"Server={server};Database={database};User Id={user};Password={password};";
+            ConnectionString = $"Server={ServerName};Database={databaseName};User Id={UserID};Password={Password};";
 
             try
             {
                 using (SqlConnection conn = new SqlConnection(ConnectionString))
                 {
                     await conn.OpenAsync();
-                    string query = $"SELECT TABLE_NAME FROM {databaseName}.INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE';";
+                    string query = $"SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE';"; 
                     using (SqlCommand cmd = new SqlCommand(query, conn))
                     {
+                        cmd.Parameters.AddWithValue("@db",databaseName);
                         using (SqlDataReader reader = await cmd.ExecuteReaderAsync())
                         {
                             while (await reader.ReadAsync())
@@ -93,15 +101,15 @@ namespace CodeGenerator_Project.Connection
 
             return tables;
         }
-        public static async Task<List<(string ColumnName, string DataType, bool IsNullable)>> GetTableColumns(string db,string tableName)
+        public static async Task<List<(string ColumnName, string DataType, bool IsNullable)>> GetTableColumns(string tableName)
         {
             List<(string ColumnName, string DataType, bool IsNullable)> columns = new List<(string, string, bool)>();
 
             try
             {
-                string connectionStringWithDb = $"{ConnectionString};Initial Catalog={db};";
+                //string connectionStringWithDb = $"{LoginConnectionString};Initial Catalog={db};";
 
-                using (SqlConnection conn = new SqlConnection(connectionStringWithDb))
+                using (SqlConnection conn = new SqlConnection(ConnectionString))
                 {
                     await conn.OpenAsync();
 
@@ -110,7 +118,7 @@ namespace CodeGenerator_Project.Connection
                     using (SqlCommand cmd = new SqlCommand(query, conn))
                     {
                         cmd.Parameters.AddWithValue("@TableName", tableName); 
-                        cmd.Parameters.AddWithValue("@db", db);
+                        //cmd.Parameters.AddWithValue("@db", db);
 
                         using (SqlDataReader reader = await cmd.ExecuteReaderAsync())
                         {
