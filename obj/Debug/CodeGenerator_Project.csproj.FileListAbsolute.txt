@@ -1,0 +1,14 @@
+C:\Users\kheli\Desktop\Wal3a\Coding\ProgrammingAdvices\Projects\CodeGenerator_Project\bin\Debug\CodeGenerator_Project.exe.config
+C:\Users\kheli\Desktop\Wal3a\Coding\ProgrammingAdvices\Projects\CodeGenerator_Project\bin\Debug\CodeGenerator_Project.exe
+C:\Users\kheli\Desktop\Wal3a\Coding\ProgrammingAdvices\Projects\CodeGenerator_Project\bin\Debug\CodeGenerator_Project.pdb
+C:\Users\kheli\Desktop\Wal3a\Coding\ProgrammingAdvices\Projects\CodeGenerator_Project\bin\Debug\Guna.UI2.dll
+C:\Users\kheli\Desktop\Wal3a\Coding\ProgrammingAdvices\Projects\CodeGenerator_Project\obj\Debug\CodeGenerator_Project.csproj.AssemblyReference.cache
+C:\Users\kheli\Desktop\Wal3a\Coding\ProgrammingAdvices\Projects\CodeGenerator_Project\obj\Debug\CodeGenerator_Project.Properties.Resources.resources
+C:\Users\kheli\Desktop\Wal3a\Coding\ProgrammingAdvices\Projects\CodeGenerator_Project\obj\Debug\CodeGenerator_Project.csproj.GenerateResource.cache
+C:\Users\kheli\Desktop\Wal3a\Coding\ProgrammingAdvices\Projects\CodeGenerator_Project\obj\Debug\CodeGenerator_Project.csproj.CoreCompileInputs.cache
+C:\Users\kheli\Desktop\Wal3a\Coding\ProgrammingAdvices\Projects\CodeGenerator_Project\obj\Debug\CodeGene.D097E5AD.Up2Date
+C:\Users\kheli\Desktop\Wal3a\Coding\ProgrammingAdvices\Projects\CodeGenerator_Project\obj\Debug\CodeGenerator_Project.exe
+C:\Users\kheli\Desktop\Wal3a\Coding\ProgrammingAdvices\Projects\CodeGenerator_Project\obj\Debug\CodeGenerator_Project.pdb
+C:\Users\kheli\Desktop\Wal3a\Coding\ProgrammingAdvices\Projects\CodeGenerator_Project\obj\Debug\CodeGenerator_Project.frmConnection.resources
+C:\Users\kheli\Desktop\Wal3a\Coding\ProgrammingAdvices\Projects\CodeGenerator_Project\obj\Debug\CodeGenerator_Project.Connection.frmMain.resources
+C:\Users\kheli\Desktop\Wal3a\Coding\ProgrammingAdvices\Projects\CodeGenerator_Project\obj\Debug\CodeGenerator_Project.Forms.frmGenerate.resources
