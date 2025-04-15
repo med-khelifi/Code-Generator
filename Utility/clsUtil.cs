@@ -187,7 +187,7 @@ namespace CodeGenerator_Project.Utility
                     conversionExpression = $"Convert.ToDateTime({value})";
                     break;
                 case "char":
-                    conversionExpression = $"(char){value}";//$"({value} == DBNull.Value ? null : {value}.ToString())";
+                    conversionExpression = $"Convert.ToChar({value})";//$"({value} == DBNull.Value ? null : {value}.ToString())";
                     break;
                 case "varchar":
                 case "nvarchar":
