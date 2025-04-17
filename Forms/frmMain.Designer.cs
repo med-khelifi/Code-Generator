@@ -37,6 +37,10 @@
             this.btnNext = new Guna.UI2.WinForms.Guna2Button();
             this.folderBrowserDialog1 = new System.Windows.Forms.FolderBrowserDialog();
             this.chkCheckAllList = new System.Windows.Forms.CheckBox();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.rbtnInlineSQL = new System.Windows.Forms.RadioButton();
+            this.rbtnStordProcedure = new System.Windows.Forms.RadioButton();
+            this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
             // label1
@@ -166,12 +170,47 @@
             this.chkCheckAllList.UseVisualStyleBackColor = true;
             this.chkCheckAllList.CheckedChanged += new System.EventHandler(this.chkCheckAllList_CheckedChanged);
             // 
+            // groupBox1
+            // 
+            this.groupBox1.Controls.Add(this.rbtnStordProcedure);
+            this.groupBox1.Controls.Add(this.rbtnInlineSQL);
+            this.groupBox1.Font = new System.Drawing.Font("Bahnschrift Condensed", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox1.Location = new System.Drawing.Point(24, 155);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(164, 283);
+            this.groupBox1.TabIndex = 12;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Text = "Gnerate With";
+            // 
+            // rbtnInlineSQL
+            // 
+            this.rbtnInlineSQL.AutoSize = true;
+            this.rbtnInlineSQL.Checked = true;
+            this.rbtnInlineSQL.Location = new System.Drawing.Point(7, 33);
+            this.rbtnInlineSQL.Name = "rbtnInlineSQL";
+            this.rbtnInlineSQL.Size = new System.Drawing.Size(86, 25);
+            this.rbtnInlineSQL.TabIndex = 0;
+            this.rbtnInlineSQL.TabStop = true;
+            this.rbtnInlineSQL.Text = "Inline SQL";
+            this.rbtnInlineSQL.UseVisualStyleBackColor = true;
+            // 
+            // rbtnStordProcedure
+            // 
+            this.rbtnStordProcedure.AutoSize = true;
+            this.rbtnStordProcedure.Location = new System.Drawing.Point(7, 59);
+            this.rbtnStordProcedure.Name = "rbtnStordProcedure";
+            this.rbtnStordProcedure.Size = new System.Drawing.Size(133, 25);
+            this.rbtnStordProcedure.TabIndex = 1;
+            this.rbtnStordProcedure.Text = "Stored Procedures";
+            this.rbtnStordProcedure.UseVisualStyleBackColor = true;
+            // 
             // frmMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Silver;
             this.ClientSize = new System.Drawing.Size(684, 585);
+            this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.chkCheckAllList);
             this.Controls.Add(this.txtPath);
             this.Controls.Add(this.label2);
@@ -183,6 +222,8 @@
             this.Name = "frmMain";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Load += new System.EventHandler(this.frmMain_Load);
+            this.groupBox1.ResumeLayout(false);
+            this.groupBox1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -199,5 +240,8 @@
         private Guna.UI2.WinForms.Guna2Button btnNext;
         private System.Windows.Forms.FolderBrowserDialog folderBrowserDialog1;
         private System.Windows.Forms.CheckBox chkCheckAllList;
+        private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.RadioButton rbtnStordProcedure;
+        private System.Windows.Forms.RadioButton rbtnInlineSQL;
     }
 }

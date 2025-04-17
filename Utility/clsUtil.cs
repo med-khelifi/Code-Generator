@@ -1,4 +1,5 @@
-﻿using Microsoft.Win32;
+﻿using Humanizer;
+using Microsoft.Win32;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
@@ -252,14 +253,14 @@ namespace CodeGenerator_Project.Utility
             }
         }
 
-        public static void SaveToFile(string content, string filePath)
+        public static async Task SaveToFile(string content, string filePath)
         {
             try
             {
                 using (FileStream fs = new FileStream(filePath, FileMode.Create, FileAccess.Write, FileShare.Read))
                 using (StreamWriter writer = new StreamWriter(fs))
                 {
-                    writer.Write(content);
+                    await writer.WriteAsync(content); // ✅ نكتب المحتوى بطريقة async
                 }
             }
             catch (Exception ex)
@@ -268,5 +269,26 @@ namespace CodeGenerator_Project.Utility
             }
         }
 
+        public static string FixSqlDataType(string dataType)
+        {
+            string lowerType = dataType.ToLower();
+
+            // لو كان النوع نصي ومافيش طول محدد، نضيف (50) كطول افتراضي
+            if ((lowerType == "nvarchar" || lowerType == "varchar" || lowerType == "char" || lowerType == "nchar")
+                && !lowerType.Contains("("))
+            {
+                return $"{dataType}(50),  -- ⚠ WARNING: Default size (50) Change it as you need";
+            }
+
+            return dataType;
+        }
+
+        public static string ToSingular(string tableName)
+        {
+            if (string.IsNullOrWhiteSpace(tableName))
+                return tableName;
+
+            return tableName.Singularize(false); // false = don't treat the word as a known proper noun
+        }
     }
 }

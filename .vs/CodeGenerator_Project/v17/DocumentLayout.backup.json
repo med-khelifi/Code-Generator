@@ -3,11 +3,15 @@
   "WorkspaceRootPath": "C:\\Users\\kheli\\Desktop\\Wal3a\\Coding\\ProgrammingAdvices\\Projects\\CodeGenerator_Project\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{FA16002C-7490-4644-9F71-5647700F38F0}|CodeGenerator_Project.csproj|c:\\users\\kheli\\desktop\\wal3a\\coding\\programmingadvices\\projects\\codegenerator_project\\generator\\clsgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA16002C-7490-4644-9F71-5647700F38F0}|CodeGenerator_Project.csproj|solutionrelative:generator\\clsgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{FA16002C-7490-4644-9F71-5647700F38F0}|CodeGenerator_Project.csproj|c:\\users\\kheli\\desktop\\wal3a\\coding\\programmingadvices\\projects\\codegenerator_project\\connection\\clsconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FA16002C-7490-4644-9F71-5647700F38F0}|CodeGenerator_Project.csproj|solutionrelative:connection\\clsconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FA16002C-7490-4644-9F71-5647700F38F0}|CodeGenerator_Project.csproj|c:\\users\\kheli\\desktop\\wal3a\\coding\\programmingadvices\\projects\\codegenerator_project\\utility\\clsutil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FA16002C-7490-4644-9F71-5647700F38F0}|CodeGenerator_Project.csproj|C:\\Users\\kheli\\Desktop\\Wal3a\\Coding\\ProgrammingAdvices\\Projects\\CodeGenerator_Project\\utility\\clsutil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FA16002C-7490-4644-9F71-5647700F38F0}|CodeGenerator_Project.csproj|solutionrelative:utility\\clsutil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -18,36 +22,50 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "clsUtil.cs",
+              "DocumentMoniker": "C:\\Users\\kheli\\Desktop\\Wal3a\\Coding\\ProgrammingAdvices\\Projects\\CodeGenerator_Project\\Utility\\clsUtil.cs",
+              "RelativeDocumentMoniker": "Utility\\clsUtil.cs",
+              "ToolTip": "C:\\Users\\kheli\\Desktop\\Wal3a\\Coding\\ProgrammingAdvices\\Projects\\CodeGenerator_Project\\Utility\\clsUtil.cs",
+              "RelativeToolTip": "Utility\\clsUtil.cs",
+              "ViewState": "AgIAABgBAAAAAAAAAAAqwCIBAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T21:03:17.387Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "clsConnection.cs",
               "DocumentMoniker": "C:\\Users\\kheli\\Desktop\\Wal3a\\Coding\\ProgrammingAdvices\\Projects\\CodeGenerator_Project\\Connection\\clsConnection.cs",
               "RelativeDocumentMoniker": "Connection\\clsConnection.cs",
               "ToolTip": "C:\\Users\\kheli\\Desktop\\Wal3a\\Coding\\ProgrammingAdvices\\Projects\\CodeGenerator_Project\\Connection\\clsConnection.cs",
               "RelativeToolTip": "Connection\\clsConnection.cs",
-              "ViewState": "AgIAACsAAAAAAAAAAAAgwGcAAAB/AAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAADgvxIAAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-15T12:09:13.646Z",
+              "WhenOpened": "2025-04-17T21:45:45.775Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "clsUtil.cs",
-              "DocumentMoniker": "C:\\Users\\kheli\\Desktop\\Wal3a\\Coding\\ProgrammingAdvices\\Projects\\CodeGenerator_Project\\Utility\\clsUtil.cs",
-              "RelativeDocumentMoniker": "Utility\\clsUtil.cs",
-              "ToolTip": "C:\\Users\\kheli\\Desktop\\Wal3a\\Coding\\ProgrammingAdvices\\Projects\\CodeGenerator_Project\\Utility\\clsUtil.cs",
-              "RelativeToolTip": "Utility\\clsUtil.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "clsGenerator.cs",
+              "DocumentMoniker": "C:\\Users\\kheli\\Desktop\\Wal3a\\Coding\\ProgrammingAdvices\\Projects\\CodeGenerator_Project\\Generator\\clsGenerator.cs",
+              "RelativeDocumentMoniker": "Generator\\clsGenerator.cs",
+              "ToolTip": "C:\\Users\\kheli\\Desktop\\Wal3a\\Coding\\ProgrammingAdvices\\Projects\\CodeGenerator_Project\\Generator\\clsGenerator.cs",
+              "RelativeToolTip": "Generator\\clsGenerator.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAADwvx4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-15T12:04:30.83Z",
+              "WhenOpened": "2025-04-17T21:00:27.033Z",
               "EditorCaption": ""
             }
           ]

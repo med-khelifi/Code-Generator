@@ -16,7 +16,7 @@ namespace CodeGenerator_Project.Connection
         private static string ConnectionString { get; set; } = string.Empty;
         private static string LoginConnectionString { get; set; } = string.Empty;
 
-        private static string ServerName, UserID, Password,DataBaseName;
+        private static string ServerName, UserID, Password;
         public static async Task<bool> Connect(string server, string user, string password)
         {
             string connectionString = $"Server={server};User Id={user};Password={password};";

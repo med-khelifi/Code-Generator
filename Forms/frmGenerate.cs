@@ -18,14 +18,15 @@ namespace CodeGenerator_Project.Forms
     {
         List<string> SelectedTabels;
         string SavePath, DatabaseName;
-        string DataAccessPath = string.Empty;
-        string BusinessLayerPath = string.Empty;
-        public frmGenerate(string DatabaseName, List<string> SelectedTabels, string Path)
+        
+        clsGenerator.enGenerationMode _Mode;
+        public frmGenerate(string DatabaseName, List<string> SelectedTabels, string Path,clsGenerator.enGenerationMode Mode)
         {
             InitializeComponent();
             this.SelectedTabels = SelectedTabels;
             this.SavePath = Path;
             this.DatabaseName = DatabaseName;
+            _Mode = Mode;
         }
 
         private void frmGenerate_Load(object sender, EventArgs e)
@@ -48,6 +49,17 @@ namespace CodeGenerator_Project.Forms
                 dgvTabels.Rows.Add("cls" + item.ToString() + ".cs"); // Ensure the item is a string
                 dgvTabels.Rows.Add("cls" + item.ToString() + "Data.cs"); // Ensure the item is a string
             }
+            
+            if(_Mode == clsGenerator.enGenerationMode.StoredProcedure)
+            {
+                foreach (var item in SelectedTabels)
+                {
+                    dgvTabels.Rows.Add("cls" + item.ToString() + "StordProcedure.sql"); // Ensure the item is a string
+                }
+            }
+            
+
+
             dgvTabels.Rows.Add("clsDataAccessUtil.cs");
 
             lblFileCount.Text = dgvTabels.Rows.Count.ToString() + " File(s).";
@@ -55,21 +67,21 @@ namespace CodeGenerator_Project.Forms
 
         private async void btnConnect_Click(object sender, EventArgs e)
         {
-            // Define base paths for Data Access and Business Layer
-            DataAccessPath = Path.Combine(SavePath, DatabaseName + "_DataLayer");
-            BusinessLayerPath = Path.Combine(SavePath, DatabaseName + "_BusinessLayer");
-
-            // Ensure the layer directories exist (create if they don't exist)
-            Directory.CreateDirectory(DataAccessPath);
-            Directory.CreateDirectory(BusinessLayerPath);
+            SavePath = Path.Combine(SavePath, DatabaseName);
+            Directory.CreateDirectory(SavePath);
 
             List<Task> tasks = new List<Task>();
-            List<string> warnings = new List<string>(); // Store warning messages
+            List<string> warnings = new List<string>();
 
             Stopwatch stopwatch = new Stopwatch();
             stopwatch.Start();
 
-            // Iterate over selected tables
+            if (!clsGenerator.GenerationStrategies.TryGetValue(_Mode, out var generateFunc))
+            {
+                MessageBox.Show("❌ Invalid generation mode selected.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
+
             foreach (var item in SelectedTabels)
             {
                 string tableName = item.ToString().Trim();
@@ -78,33 +90,21 @@ namespace CodeGenerator_Project.Forms
                 {
                     try
                     {
-                        // Get table columns
                         var columns = await clsConnection.GetTableColumns(tableName);
 
-                        // Validate columns
                         if (columns == null || columns.Count == 0)
                         {
-                            lock (warnings) // Ensure thread safety when adding warnings
+                            lock (warnings)
                             {
                                 warnings.Add($"⚠ Warning: No columns found for table {tableName}");
                             }
                             return;
                         }
 
-                        // Generate code for business and data access layers
-                        string businessLayer = clsGenerator.GenerateBusinessLayer(tableName, columns);
-                        string dataAccess = clsGenerator.GenerateDataLayer(tableName, columns);
-
-                        // Save generated files to the respective layer directories
-                        string businessFilePath = Path.Combine(BusinessLayerPath, "cls" + tableName + ".cs");
-                        string dataFilePath = Path.Combine(DataAccessPath, tableName + "Data.cs");
-
-                        clsUtil.SaveToFile(businessLayer, businessFilePath);
-                        clsUtil.SaveToFile(dataAccess, dataFilePath);
+                        await generateFunc(tableName,columns ,SavePath);
                     }
                     catch (Exception ex)
                     {
-                        // Log errors
                         clsUtil.LogError(ex);
                         lock (warnings)
                         {
@@ -114,25 +114,20 @@ namespace CodeGenerator_Project.Forms
                 }));
             }
 
-            // Wait for all table-processing tasks to complete
             await Task.WhenAll(tasks);
-
-            // Generate and save clsDataAccessUtil AFTER all other files are created
-            string dataAccessUtilPath = Path.Combine(DataAccessPath, "clsDataAccessUtil.cs");
-            clsUtil.SaveToFile(clsGenerator.clsDataAccessUtil(), dataAccessUtilPath);
+            await clsGenerator.GenerateAndSaveDataAccessUtil(SavePath);
 
             stopwatch.Stop();
 
-            // Display any warnings collected
             if (warnings.Count > 0)
             {
                 MessageBox.Show(string.Join("\n", warnings), "Warnings", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
 
-            // Show success message
             MessageBox.Show($"✅ All files have been generated successfully in {stopwatch.ElapsedMilliseconds} ms.",
                              "Done", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
+
 
 
     }

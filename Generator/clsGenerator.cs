@@ -1,4 +1,5 @@
-﻿using CodeGenerator_Project.Utility;
+﻿using CodeGenerator_Project.Connection;
+using CodeGenerator_Project.Utility;
 using System;
 using System.Collections.Generic;
 using System.Data;
@@ -6,12 +7,29 @@ using System.Data.Common;
 using System.IO;
 using System.Linq;
 using System.Text;
+using System.Threading.Tasks;
+using static CodeGenerator_Project.clsGenerator;
+using static CodeGenerator_Project.Connection.frmMain;
 
 namespace CodeGenerator_Project
 {
     public static class clsGenerator
     {
-        public static string clsDataAccessUtil()
+        public enum enGenerationMode
+        {
+            Inline = 1,
+            StoredProcedure
+        }
+        public static readonly 
+            Dictionary<enGenerationMode, Func<string, List<(string ColumnName, string DataType, bool IsNullable)>, string, Task>> GenerationStrategies
+            = new Dictionary< enGenerationMode, Func<string, List<(string ColumnName, string DataType, bool IsNullable)>, string, Task>>
+            {
+                { enGenerationMode.Inline, GenerateAndSaveInlineMode },
+                { enGenerationMode.StoredProcedure, GenerateSPMode }
+            };
+
+
+        private static string GenerateclsDataAccessUtil()
         {
             StringBuilder sb = new StringBuilder();
 
@@ -67,7 +85,7 @@ namespace CodeGenerator_Project
             return sb.ToString();
         }
 
-        public static string GenerateDataLayer(string tableName, List<(string ColumnName, string DataType, bool IsNullable)> columns)
+        private static string GenerateDataLayerInline(string tableName, List<(string ColumnName, string DataType, bool IsNullable)> columns)
         {
             StringBuilder sb = new StringBuilder();
             string className = $"cls{tableName}Data";
@@ -235,7 +253,7 @@ namespace CodeGenerator_Project
             return sb.ToString();
         }
 
-        public static string GenerateBusinessLayer(string tableName, List<(string ColumnName, string DataType, bool IsNullable)> columns)
+        private static string GenerateBusinessLayer(string tableName, List<(string ColumnName, string DataType, bool IsNullable)> columns)
         {
             StringBuilder sb = new StringBuilder();
             string className = $"cls{tableName}";
@@ -347,6 +365,294 @@ namespace CodeGenerator_Project
             sb.AppendLine("}");
             return sb.ToString();
             #endregion
+        }
+
+        private static string GenerateDataLayerWithStoredProcedures(string tableName, List<(string ColumnName, string DataType, bool IsNullable)> columns)
+        {
+            StringBuilder sb = new StringBuilder();
+            string singularTableName = clsUtil.ToSingular(tableName);  // تحويل الاسم للمفرد
+            string className = $"cls{singularTableName}Data";
+
+            sb.AppendLine("using System;");
+            sb.AppendLine("using System.Data;");
+            sb.AppendLine("using System.Configuration;");
+            sb.AppendLine("using System.Data.SqlClient;");
+            sb.AppendLine("namespace DataLayer");
+            sb.AppendLine("{");
+            sb.AppendLine($"    public static class {className}");
+            sb.AppendLine("    {");
+
+            // GetByID Method
+            sb.AppendLine($"        public static bool GetByID({clsUtil.ConvertSqlTypeToCSharp(columns[0].DataType, columns[0].IsNullable)} {columns[0].ColumnName}, {string.Join(", ", columns.Skip(1).Select(c => $"ref {clsUtil.ConvertSqlTypeToCSharp(c.DataType, c.IsNullable)} {c.ColumnName}"))})");
+            sb.AppendLine("        {");
+            sb.AppendLine("            bool isFound = false;");
+            sb.AppendLine("            using (SqlConnection connection = new SqlConnection(clsDataAccessUtil.GetConnectionString()))");
+            sb.AppendLine("            using (SqlCommand command = new SqlCommand(\"sp_Get" + singularTableName + "ByID\", connection))");
+            sb.AppendLine("            {");
+            sb.AppendLine("                command.CommandType = CommandType.StoredProcedure;");
+            sb.AppendLine($"                command.Parameters.AddWithValue(\"@{columns[0].ColumnName}\", {columns[0].ColumnName});");
+
+            sb.AppendLine("                try");
+            sb.AppendLine("                {");
+            sb.AppendLine("                    connection.Open();");
+            sb.AppendLine("                    using (SqlDataReader reader = command.ExecuteReader())");
+            sb.AppendLine("                    {");
+            sb.AppendLine("                        if (reader.Read())");
+            sb.AppendLine("                        {");
+            foreach (var column in columns.Skip(1))
+            {
+                sb.AppendLine($"                            {column.ColumnName} = {clsUtil.GenerateConversionExpression(clsUtil.ConvertSqlTypeToCSharp(column.DataType, column.IsNullable), $"reader[\"{column.ColumnName}\"]")};");
+            }
+            sb.AppendLine("                        }");
+            sb.AppendLine("                    }");
+            sb.AppendLine("                }");
+            sb.AppendLine("                catch (Exception ex)");
+            sb.AppendLine("                {");
+            sb.AppendLine("                    clsDataAccessUtil.LogError(ex);");
+            sb.AppendLine("                }");
+            sb.AppendLine("            }");
+            sb.AppendLine("            return isFound;");
+            sb.AppendLine("        }");
+
+            // Delete
+            sb.AppendLine($"        public static bool Delete({clsUtil.ConvertSqlTypeToCSharp(columns[0].DataType, columns[0].IsNullable)} {columns[0].ColumnName})");
+            sb.AppendLine("        {");
+            sb.AppendLine("            int result = 0;");
+            sb.AppendLine("            using (SqlConnection connection = new SqlConnection(clsDataAccessUtil.GetConnectionString()))");
+            sb.AppendLine("            using (SqlCommand command = new SqlCommand(\"sp_Delete" + singularTableName + "\", connection))");
+            sb.AppendLine("            {");
+            sb.AppendLine("                command.CommandType = CommandType.StoredProcedure;");
+            sb.AppendLine($"                command.Parameters.AddWithValue(\"@{columns[0].ColumnName}\", {columns[0].ColumnName});");
+
+            sb.AppendLine("                try");
+            sb.AppendLine("                {");
+            sb.AppendLine("                    connection.Open();");
+            sb.AppendLine("                    result = command.ExecuteNonQuery();");
+            sb.AppendLine("                }");
+            sb.AppendLine("                catch (Exception ex)");
+            sb.AppendLine("                {");
+            sb.AppendLine("                    clsDataAccessUtil.LogError(ex);");
+            sb.AppendLine("                }");
+            sb.AppendLine("            }");
+            sb.AppendLine("            return result > 0;");
+            sb.AppendLine("        }");
+
+            // GetAll
+            sb.AppendLine($"        public static DataTable GetAll()");
+            sb.AppendLine("        {");
+            sb.AppendLine("            DataTable dt = new DataTable();");
+            sb.AppendLine("            using (SqlConnection connection = new SqlConnection(clsDataAccessUtil.GetConnectionString()))");
+            sb.AppendLine("            using (SqlCommand command = new SqlCommand(\"sp_GetAll" + tableName + "\", connection))");
+            sb.AppendLine("            {");
+            sb.AppendLine("                command.CommandType = CommandType.StoredProcedure;");
+            sb.AppendLine("                try");
+            sb.AppendLine("                {");
+            sb.AppendLine("                    connection.Open();");
+            sb.AppendLine("                    SqlDataReader reader = command.ExecuteReader();");
+            sb.AppendLine("                    dt.Load(reader);");
+            sb.AppendLine("                }");
+            sb.AppendLine("                catch (Exception ex)");
+            sb.AppendLine("                {");
+            sb.AppendLine("                    clsDataAccessUtil.LogError(ex);");
+            sb.AppendLine("                }");
+            sb.AppendLine("            }");
+            sb.AppendLine("            return dt;");
+            sb.AppendLine("        }");
+
+            // AddNew
+            sb.AppendLine($"        public static {clsUtil.ConvertSqlTypeToCSharp(columns[0].DataType, columns[0].IsNullable)} AddNew({string.Join(", ", columns.Skip(1).Select(c => $"{clsUtil.ConvertSqlTypeToCSharp(c.DataType, c.IsNullable)} {c.ColumnName}"))})");
+            sb.AppendLine("        {");
+            sb.AppendLine($"            {clsUtil.ConvertSqlTypeToCSharp(columns[0].DataType, columns[0].IsNullable)} newID = 0;");
+            sb.AppendLine("            using (SqlConnection connection = new SqlConnection(clsDataAccessUtil.GetConnectionString()))");
+            sb.AppendLine("            using (SqlCommand command = new SqlCommand(\"sp_AddNew" + singularTableName + "\", connection))");
+            sb.AppendLine("            {");
+            sb.AppendLine("                command.CommandType = CommandType.StoredProcedure;");
+            foreach (var col in columns.Skip(1))
+                sb.AppendLine($"                command.Parameters.AddWithValue(\"@{col.ColumnName}\", {col.ColumnName});");
+
+            sb.AppendLine("                try");
+            sb.AppendLine("                {");
+            sb.AppendLine("                    connection.Open();");
+            sb.AppendLine($"                    newID = {clsUtil.GenerateConversionExpression(clsUtil.ConvertSqlTypeToCSharp(columns[0].DataType, columns[0].IsNullable), "command.ExecuteScalar()")};");
+            sb.AppendLine("                }");
+            sb.AppendLine("                catch (Exception ex)");
+            sb.AppendLine("                {");
+            sb.AppendLine("                    clsDataAccessUtil.LogError(ex);");
+            sb.AppendLine("                }");
+            sb.AppendLine("            }");
+            sb.AppendLine("            return newID;");
+            sb.AppendLine("        }");
+
+            // Update
+            sb.AppendLine($"        public static bool Update({string.Join(", ", columns.Select(c => $"{clsUtil.ConvertSqlTypeToCSharp(c.DataType, c.IsNullable)} {c.ColumnName}"))})");
+            sb.AppendLine("        {");
+            sb.AppendLine("            int result = 0;");
+            sb.AppendLine("            using (SqlConnection connection = new SqlConnection(clsDataAccessUtil.GetConnectionString()))");
+            sb.AppendLine("            using (SqlCommand command = new SqlCommand(\"sp_Update" + singularTableName + "\", connection))");
+            sb.AppendLine("            {");
+            sb.AppendLine("                command.CommandType = CommandType.StoredProcedure;");
+            foreach (var col in columns)
+                sb.AppendLine($"                command.Parameters.AddWithValue(\"@{col.ColumnName}\", {col.ColumnName});");
+
+            sb.AppendLine("                try");
+            sb.AppendLine("                {");
+            sb.AppendLine("                    connection.Open();");
+            sb.AppendLine("                    result = command.ExecuteNonQuery();");
+            sb.AppendLine("                }");
+            sb.AppendLine("                catch (Exception ex)");
+            sb.AppendLine("                {");
+            sb.AppendLine("                    clsDataAccessUtil.LogError(ex);");
+            sb.AppendLine("                }");
+            sb.AppendLine("            }");
+            sb.AppendLine("            return result > 0;");
+            sb.AppendLine("        }");
+
+            sb.AppendLine("    }");
+            sb.AppendLine("}");
+
+            return sb.ToString();
+        }
+
+        private static string GenerateStoredProceduresSQL(string tableName, List<(string ColumnName, string DataType, bool IsNullable)> columns)
+        {
+            StringBuilder sb = new StringBuilder();
+            string singularTableName = clsUtil.ToSingular(tableName);  // تحويل الاسم للمفرد
+            string pkColumn = columns[0].ColumnName;
+            string pkDataType = columns[0].DataType;
+
+            // ==== AddNew Procedure ====
+            sb.AppendLine($"-- =============================================");
+            sb.AppendLine($"-- Author:      AutoGenerated");
+            sb.AppendLine($"-- Create date: {DateTime.Now:yyyy-MM-dd}");
+            sb.AppendLine($"-- Description: Insert new record into {tableName}");
+            sb.AppendLine($"-- =============================================");
+            sb.AppendLine($"CREATE PROCEDURE sp_AddNew{singularTableName}");
+            sb.AppendLine(string.Join(",\n", columns.Skip(1)
+                .Select(c => $"    @{c.ColumnName} {clsUtil.FixSqlDataType(c.DataType)}")));
+            sb.AppendLine("AS");
+            sb.AppendLine("BEGIN");
+            sb.AppendLine($"    INSERT INTO {tableName} ({string.Join(", ", columns.Skip(1).Select(c => c.ColumnName))})");
+            sb.AppendLine($"    VALUES ({string.Join(", ", columns.Skip(1).Select(c => $"@{c.ColumnName}"))});");
+            sb.AppendLine("    SELECT SCOPE_IDENTITY();");
+            sb.AppendLine("END");
+            sb.AppendLine("GO\n");
+
+            // ==== Update Procedure ====
+            sb.AppendLine($"-- =============================================");
+            sb.AppendLine($"-- Author:      AutoGenerated");
+            sb.AppendLine($"-- Create date: {DateTime.Now:yyyy-MM-dd}");
+            sb.AppendLine($"-- Description: Update record in {tableName}");
+            sb.AppendLine($"-- =============================================");
+            sb.AppendLine($"CREATE PROCEDURE sp_Update{singularTableName}");
+            sb.AppendLine(string.Join(",\n", columns
+                .Select(c => $"    @{c.ColumnName} {clsUtil.FixSqlDataType(c.DataType)}")));
+            sb.AppendLine("AS");
+            sb.AppendLine("BEGIN");
+            sb.AppendLine($"    UPDATE {tableName}");
+            sb.AppendLine("    SET");
+            sb.AppendLine(string.Join(",\n", columns.Skip(1).Select(c => $"        {c.ColumnName} = @{c.ColumnName}")));
+            sb.AppendLine($"    WHERE {pkColumn} = @{pkColumn};");
+            sb.AppendLine("END");
+            sb.AppendLine("GO\n");
+
+            // ==== Delete Procedure ====
+            sb.AppendLine($"-- =============================================");
+            sb.AppendLine($"-- Author:      AutoGenerated");
+            sb.AppendLine($"-- Create date: {DateTime.Now:yyyy-MM-dd}");
+            sb.AppendLine($"-- Description: Delete record from {tableName} by ID");
+            sb.AppendLine($"-- =============================================");
+            sb.AppendLine($"CREATE PROCEDURE sp_Delete{singularTableName}");
+            sb.AppendLine($"    @{pkColumn} {clsUtil.FixSqlDataType(pkDataType)}");
+            sb.AppendLine("AS");
+            sb.AppendLine("BEGIN");
+            sb.AppendLine($"    DELETE FROM {tableName} WHERE {pkColumn} = @{pkColumn};");
+            sb.AppendLine("END");
+            sb.AppendLine("GO\n");
+
+            // ==== GetByID Procedure ====
+            sb.AppendLine($"-- =============================================");
+            sb.AppendLine($"-- Author:      AutoGenerated");
+            sb.AppendLine($"-- Create date: {DateTime.Now:yyyy-MM-dd}");
+            sb.AppendLine($"-- Description: Get single record from {tableName} by ID");
+            sb.AppendLine($"-- =============================================");
+            sb.AppendLine($"CREATE PROCEDURE sp_Get{singularTableName}ByID");
+            sb.AppendLine($"    @{pkColumn} {clsUtil.FixSqlDataType(pkDataType)}");
+            sb.AppendLine("AS");
+            sb.AppendLine("BEGIN");
+            sb.AppendLine($"    SELECT * FROM {tableName} WHERE {pkColumn} = @{pkColumn};");
+            sb.AppendLine("END");
+            sb.AppendLine("GO\n");
+
+            // ==== GetAll Procedure ====
+            sb.AppendLine($"-- =============================================");
+            sb.AppendLine($"-- Author:      AutoGenerated");
+            sb.AppendLine($"-- Create date: {DateTime.Now:yyyy-MM-dd}");
+            sb.AppendLine($"-- Description: Get all records from {tableName}");
+            sb.AppendLine($"-- =============================================");
+            sb.AppendLine($"CREATE PROCEDURE sp_GetAll{tableName}");
+            sb.AppendLine("AS");
+            sb.AppendLine("BEGIN");
+            sb.AppendLine($"    SELECT * FROM {tableName};");
+            sb.AppendLine("END");
+            sb.AppendLine("GO\n");
+
+            return sb.ToString();
+        }
+
+        public static async Task GenerateAndSaveInlineMode(string tableName, List<(string ColumnName, string DataType, bool IsNullable)> columns, string path)
+        {
+            var businessLayerPath = Path.Combine(path, "BusinessLayer");
+            var dataAccessPath = Path.Combine(path, "DataLayer");
+
+            // تأكد أنو المجلدات موجودة
+            Directory.CreateDirectory(businessLayerPath);
+            Directory.CreateDirectory(dataAccessPath);
+
+            string businessLayer = GenerateBusinessLayer(tableName, columns);
+            string dataAccess = GenerateDataLayerInline(tableName, columns);
+
+            string businessFilePath = Path.Combine(businessLayerPath, $"cls{tableName}.cs");
+            string dataFilePath = Path.Combine(dataAccessPath, $"{tableName}Data.cs");
+
+            await clsUtil.SaveToFile(businessLayer, businessFilePath);
+            await clsUtil.SaveToFile(dataAccess, dataFilePath);
+        }
+
+        public static async Task GenerateSPMode(string tableName, List<(string ColumnName, string DataType, bool IsNullable)> columns, string path)
+        {
+
+            var BusinessLayerPath = Path.Combine(path, "BusinessLayer");
+            var DataAccessPath = Path.Combine(path, "DataLayer");
+            var spPath = Path.Combine(path, "StoredProcedures");
+
+            // Ensure the layer directories exist (create if they don't exist)
+            Directory.CreateDirectory(BusinessLayerPath);
+            Directory.CreateDirectory(DataAccessPath);
+            Directory.CreateDirectory(spPath);
+
+            string businessLayer = GenerateBusinessLayer(tableName, columns);
+            string dataAccess = GenerateDataLayerWithStoredProcedures(tableName, columns);
+            string spScript = GenerateStoredProceduresSQL(tableName, columns);
+
+            string businessFilePath = Path.Combine(BusinessLayerPath, $"cls{tableName}.cs");
+            string dataFilePath = Path.Combine(DataAccessPath, $"{tableName}Data.cs");
+            string spFilePath = Path.Combine(spPath, $"SP_{tableName}.sql");
+
+            await clsUtil.SaveToFile(businessLayer, businessFilePath);
+            await clsUtil.SaveToFile(dataAccess, dataFilePath);
+            await clsUtil.SaveToFile(spScript, spFilePath);
+        }
+
+        public static async Task GenerateAndSaveDataAccessUtil(string path)
+        {
+            var DataAccessPath = Path.Combine(path, "DataLayer");
+            Directory.CreateDirectory(DataAccessPath);
+            string clsDataAccessUtilClass = GenerateclsDataAccessUtil();
+
+            string clsDataAccessUtilClassFilePath = Path.Combine(DataAccessPath, "clsDataAccessUtil.cs");
+
+            await clsUtil.SaveToFile(clsDataAccessUtilClass, clsDataAccessUtilClassFilePath);
+
         }
     }
 }

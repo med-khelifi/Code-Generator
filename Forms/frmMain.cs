@@ -14,9 +14,22 @@ namespace CodeGenerator_Project.Connection
         {
             InitializeComponent();
         }
+        
 
         List<string> SelectedTabels = new List<string>();
-
+        private clsGenerator.enGenerationMode _GetGenerationMode()
+        {
+            clsGenerator.enGenerationMode _Mode;
+            if (rbtnInlineSQL.Checked)
+            {
+                _Mode = clsGenerator.enGenerationMode.Inline;
+            }
+            else
+            {
+                _Mode = clsGenerator.enGenerationMode.StoredProcedure;
+            }
+            return _Mode;
+        }
         private List<string> _GetSelectedTabels()
         {
             List<string> SelectedTabels = new List<string>();
@@ -135,7 +148,8 @@ namespace CodeGenerator_Project.Connection
             }
 
             // If all validations pass, proceed to the next form
-            frmGenerate frm = new frmGenerate(cbDatabases.Text.Trim(), _GetSelectedTabels(), selectedPath);
+            frmGenerate frm = new frmGenerate
+                (cbDatabases.Text.Trim(), _GetSelectedTabels(), selectedPath,_GetGenerationMode());
             frm.ShowDialog();
         }
 
