@@ -527,8 +527,10 @@ namespace CodeGenerator_Project
             sb.AppendLine($"-- Description: Insert new record into {tableName}");
             sb.AppendLine($"-- =============================================");
             sb.AppendLine($"CREATE PROCEDURE sp_AddNew{singularTableName}");
+            sb.AppendLine("(");
             sb.AppendLine(string.Join(",\n", columns.Skip(1)
                 .Select(c => $"    @{c.ColumnName} {clsUtil.FixSqlDataType(c.DataType)}")));
+            sb.AppendLine(")");
             sb.AppendLine("AS");
             sb.AppendLine("BEGIN");
             sb.AppendLine($"    INSERT INTO {tableName} ({string.Join(", ", columns.Skip(1).Select(c => c.ColumnName))})");
@@ -544,8 +546,10 @@ namespace CodeGenerator_Project
             sb.AppendLine($"-- Description: Update record in {tableName}");
             sb.AppendLine($"-- =============================================");
             sb.AppendLine($"CREATE PROCEDURE sp_Update{singularTableName}");
+            sb.AppendLine("(");
             sb.AppendLine(string.Join(",\n", columns
                 .Select(c => $"    @{c.ColumnName} {clsUtil.FixSqlDataType(c.DataType)}")));
+            sb.AppendLine(")");
             sb.AppendLine("AS");
             sb.AppendLine("BEGIN");
             sb.AppendLine($"    UPDATE {tableName}");
@@ -562,7 +566,9 @@ namespace CodeGenerator_Project
             sb.AppendLine($"-- Description: Delete record from {tableName} by ID");
             sb.AppendLine($"-- =============================================");
             sb.AppendLine($"CREATE PROCEDURE sp_Delete{singularTableName}");
+            sb.AppendLine("(");
             sb.AppendLine($"    @{pkColumn} {clsUtil.FixSqlDataType(pkDataType)}");
+            sb.AppendLine(")");
             sb.AppendLine("AS");
             sb.AppendLine("BEGIN");
             sb.AppendLine($"    DELETE FROM {tableName} WHERE {pkColumn} = @{pkColumn};");
@@ -576,7 +582,9 @@ namespace CodeGenerator_Project
             sb.AppendLine($"-- Description: Get single record from {tableName} by ID");
             sb.AppendLine($"-- =============================================");
             sb.AppendLine($"CREATE PROCEDURE sp_Get{singularTableName}ByID");
+            sb.AppendLine("(");
             sb.AppendLine($"    @{pkColumn} {clsUtil.FixSqlDataType(pkDataType)}");
+            sb.AppendLine(")");
             sb.AppendLine("AS");
             sb.AppendLine("BEGIN");
             sb.AppendLine($"    SELECT * FROM {tableName} WHERE {pkColumn} = @{pkColumn};");
@@ -598,6 +606,7 @@ namespace CodeGenerator_Project
 
             return sb.ToString();
         }
+
 
         public static async Task GenerateAndSaveInlineMode(string tableName, List<(string ColumnName, string DataType, bool IsNullable)> columns, string path)
         {

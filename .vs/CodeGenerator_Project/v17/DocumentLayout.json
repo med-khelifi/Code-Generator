@@ -7,7 +7,7 @@
       "RelativeMoniker": "D:0:0:{FA16002C-7490-4644-9F71-5647700F38F0}|CodeGenerator_Project.csproj|solutionrelative:generator\\clsgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FA16002C-7490-4644-9F71-5647700F38F0}|CodeGenerator_Project.csproj|c:\\users\\kheli\\desktop\\wal3a\\coding\\programmingadvices\\projects\\codegenerator_project\\connection\\clsconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FA16002C-7490-4644-9F71-5647700F38F0}|CodeGenerator_Project.csproj|C:\\Users\\kheli\\Desktop\\Wal3a\\Coding\\ProgrammingAdvices\\Projects\\CodeGenerator_Project\\connection\\clsconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FA16002C-7490-4644-9F71-5647700F38F0}|CodeGenerator_Project.csproj|solutionrelative:connection\\clsconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -35,8 +35,7 @@
               "ViewState": "AgIAABgBAAAAAAAAAAAqwCIBAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-17T21:03:17.387Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Bookmark",
@@ -52,8 +51,7 @@
               "RelativeToolTip": "Connection\\clsConnection.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAADgvxIAAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-17T21:45:45.775Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-17T21:45:45.775Z"
             },
             {
               "$type": "Document",
@@ -63,7 +61,7 @@
               "RelativeDocumentMoniker": "Generator\\clsGenerator.cs",
               "ToolTip": "C:\\Users\\kheli\\Desktop\\Wal3a\\Coding\\ProgrammingAdvices\\Projects\\CodeGenerator_Project\\Generator\\clsGenerator.cs",
               "RelativeToolTip": "Generator\\clsGenerator.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAADwvx4AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAEgCAAAAAAAAAAAIwGACAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-17T21:00:27.033Z",
               "EditorCaption": ""
