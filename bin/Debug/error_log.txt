@@ -1,0 +1,1735 @@
+2/18/2025 2:06:44 PM - System.Security.SecurityException: The source was not found, but some or all event logs could not be searched.  Inaccessible logs: Security.
+   at System.Diagnostics.EventLog.FindSourceRegistration(String source, String machineName, Boolean readOnly, Boolean wantToCreate)
+   at System.Diagnostics.EventLog.SourceExists(String source, String machineName, Boolean wantToCreate)
+   at System.Diagnostics.EventLog.SourceExists(String source)
+   at CodeGenerator_Project.Connection.clsConnection.LogErrorToWindowsEventLog(Exception ex) in C:\Users\kheli\Desktop\Wal3a\Coding\ProgrammingAdvices\Projects\CodeGenerator_Project\Connection\clsConnection.cs:line 73
+The Zone of the assembly that failed was:
+MyComputer
+2/18/2025 2:08:08 PM - System.Security.SecurityException: The source was not found, but some or all event logs could not be searched.  Inaccessible logs: Security.
+   at System.Diagnostics.EventLog.FindSourceRegistration(String source, String machineName, Boolean readOnly, Boolean wantToCreate)
+   at System.Diagnostics.EventLog.SourceExists(String source, String machineName, Boolean wantToCreate)
+   at System.Diagnostics.EventLog.SourceExists(String source)
+   at CodeGenerator_Project.Connection.clsConnection.LogErrorToWindowsEventLog(Exception ex) in C:\Users\kheli\Desktop\Wal3a\Coding\ProgrammingAdvices\Projects\CodeGenerator_Project\Connection\clsConnection.cs:line 73
+The Zone of the assembly that failed was:
+MyComputer
+2/18/2025 2:08:16 PM - System.Security.SecurityException: The source was not found, but some or all event logs could not be searched.  Inaccessible logs: Security.
+   at System.Diagnostics.EventLog.FindSourceRegistration(String source, String machineName, Boolean readOnly, Boolean wantToCreate)
+   at System.Diagnostics.EventLog.SourceExists(String source, String machineName, Boolean wantToCreate)
+   at System.Diagnostics.EventLog.SourceExists(String source)
+   at CodeGenerator_Project.Connection.clsConnection.LogErrorToWindowsEventLog(Exception ex) in C:\Users\kheli\Desktop\Wal3a\Coding\ProgrammingAdvices\Projects\CodeGenerator_Project\Connection\clsConnection.cs:line 73
+The Zone of the assembly that failed was:
+MyComputer
+2/18/2025 2:09:07 PM - System.Security.SecurityException: The source was not found, but some or all event logs could not be searched.  Inaccessible logs: Security.
+   at System.Diagnostics.EventLog.FindSourceRegistration(String source, String machineName, Boolean readOnly, Boolean wantToCreate)
+   at System.Diagnostics.EventLog.SourceExists(String source, String machineName, Boolean wantToCreate)
+   at System.Diagnostics.EventLog.SourceExists(String source)
+   at CodeGenerator_Project.Connection.clsConnection.LogErrorToWindowsEventLog(Exception ex) in C:\Users\kheli\Desktop\Wal3a\Coding\ProgrammingAdvices\Projects\CodeGenerator_Project\Connection\clsConnection.cs:line 73
+The Zone of the assembly that failed was:
+MyComputer
+2/18/2025 2:10:31 PM - System.Security.SecurityException: The source was not found, but some or all event logs could not be searched.  Inaccessible logs: Security.
+   at System.Diagnostics.EventLog.FindSourceRegistration(String source, String machineName, Boolean readOnly, Boolean wantToCreate)
+   at System.Diagnostics.EventLog.SourceExists(String source, String machineName, Boolean wantToCreate)
+   at System.Diagnostics.EventLog.SourceExists(String source)
+   at CodeGenerator_Project.Connection.clsConnection.LogErrorToWindowsEventLog(Exception ex) in C:\Users\kheli\Desktop\Wal3a\Coding\ProgrammingAdvices\Projects\CodeGenerator_Project\Connection\clsConnection.cs:line 73
+The Zone of the assembly that failed was:
+MyComputer
+2/18/2025 2:14:34 PM - System.Security.SecurityException: The source was not found, but some or all event logs could not be searched.  Inaccessible logs: Security.
+   at System.Diagnostics.EventLog.FindSourceRegistration(String source, String machineName, Boolean readOnly, Boolean wantToCreate)
+   at System.Diagnostics.EventLog.SourceExists(String source, String machineName, Boolean wantToCreate)
+   at System.Diagnostics.EventLog.SourceExists(String source)
+   at CodeGenerator_Project.Connection.clsConnection.LogErrorToWindowsEventLog(Exception ex) in C:\Users\kheli\Desktop\Wal3a\Coding\ProgrammingAdvices\Projects\CodeGenerator_Project\Connection\clsConnection.cs:line 74
+The Zone of the assembly that failed was:
+MyComputer
+2/18/2025 2:19:00 PM - System.Security.SecurityException: The source was not found, but some or all event logs could not be searched.  Inaccessible logs: Security.
+   at System.Diagnostics.EventLog.FindSourceRegistration(String source, String machineName, Boolean readOnly, Boolean wantToCreate)
+   at System.Diagnostics.EventLog.SourceExists(String source, String machineName, Boolean wantToCreate)
+   at System.Diagnostics.EventLog.SourceExists(String source)
+   at CodeGenerator_Project.Connection.clsConnection.LogErrorToWindowsEventLog(Exception ex) in C:\Users\kheli\Desktop\Wal3a\Coding\ProgrammingAdvices\Projects\CodeGenerator_Project\Connection\clsConnection.cs:line 74
+The Zone of the assembly that failed was:
+MyComputer
+2/18/2025 2:26:37 PM - System.Security.SecurityException: The source was not found, but some or all event logs could not be searched.  Inaccessible logs: Security.
+   at System.Diagnostics.EventLog.FindSourceRegistration(String source, String machineName, Boolean readOnly, Boolean wantToCreate)
+   at System.Diagnostics.EventLog.SourceExists(String source, String machineName, Boolean wantToCreate)
+   at System.Diagnostics.EventLog.SourceExists(String source)
+   at CodeGenerator_Project.Connection.clsConnection.LogErrorToWindowsEventLog(Exception ex) in C:\Users\kheli\Desktop\Wal3a\Coding\ProgrammingAdvices\Projects\CodeGenerator_Project\Connection\clsConnection.cs:line 74
+The Zone of the assembly that failed was:
+MyComputer
+2/18/2025 2:26:46 PM - System.Security.SecurityException: The source was not found, but some or all event logs could not be searched.  Inaccessible logs: Security.
+   at System.Diagnostics.EventLog.FindSourceRegistration(String source, String machineName, Boolean readOnly, Boolean wantToCreate)
+   at System.Diagnostics.EventLog.SourceExists(String source, String machineName, Boolean wantToCreate)
+   at System.Diagnostics.EventLog.SourceExists(String source)
+   at CodeGenerator_Project.Connection.clsConnection.LogErrorToWindowsEventLog(Exception ex) in C:\Users\kheli\Desktop\Wal3a\Coding\ProgrammingAdvices\Projects\CodeGenerator_Project\Connection\clsConnection.cs:line 74
+The Zone of the assembly that failed was:
+MyComputer
+2/18/2025 2:27:01 PM - System.Security.SecurityException: The source was not found, but some or all event logs could not be searched.  Inaccessible logs: Security.
+   at System.Diagnostics.EventLog.FindSourceRegistration(String source, String machineName, Boolean readOnly, Boolean wantToCreate)
+   at System.Diagnostics.EventLog.SourceExists(String source, String machineName, Boolean wantToCreate)
+   at System.Diagnostics.EventLog.SourceExists(String source)
+   at CodeGenerator_Project.Connection.clsConnection.LogErrorToWindowsEventLog(Exception ex) in C:\Users\kheli\Desktop\Wal3a\Coding\ProgrammingAdvices\Projects\CodeGenerator_Project\Connection\clsConnection.cs:line 74
+The Zone of the assembly that failed was:
+MyComputer
+2/18/2025 2:29:24 PM - System.Security.SecurityException: The source was not found, but some or all event logs could not be searched.  Inaccessible logs: Security.
+   at System.Diagnostics.EventLog.FindSourceRegistration(String source, String machineName, Boolean readOnly, Boolean wantToCreate)
+   at System.Diagnostics.EventLog.SourceExists(String source, String machineName, Boolean wantToCreate)
+   at System.Diagnostics.EventLog.SourceExists(String source)
+   at CodeGenerator_Project.Connection.clsConnection.LogErrorToWindowsEventLog(Exception ex) in C:\Users\kheli\Desktop\Wal3a\Coding\ProgrammingAdvices\Projects\CodeGenerator_Project\Connection\clsConnection.cs:line 74
+The Zone of the assembly that failed was:
+MyComputer
+2/19/2025 8:30:17 PM - System.Security.SecurityException: The source was not found, but some or all event logs could not be searched.  Inaccessible logs: Security.
+   at System.Diagnostics.EventLog.FindSourceRegistration(String source, String machineName, Boolean readOnly, Boolean wantToCreate)
+   at System.Diagnostics.EventLog.SourceExists(String source, String machineName, Boolean wantToCreate)
+   at System.Diagnostics.EventLog.SourceExists(String source)
+   at CodeGenerator_Project.Utility.clsUtil.LogErrorToWindowsEventLog(Exception ex) in C:\Users\kheli\Desktop\Wal3a\Coding\ProgrammingAdvices\Projects\CodeGenerator_Project\Utility\clsUtil.cs:line 20
+The Zone of the assembly that failed was:
+MyComputer
+2/19/2025 8:33:16 PM - System.Security.SecurityException: The source was not found, but some or all event logs could not be searched.  Inaccessible logs: Security.
+   at System.Diagnostics.EventLog.FindSourceRegistration(String source, String machineName, Boolean readOnly, Boolean wantToCreate)
+   at System.Diagnostics.EventLog.SourceExists(String source, String machineName, Boolean wantToCreate)
+   at System.Diagnostics.EventLog.SourceExists(String source)
+   at CodeGenerator_Project.Utility.clsUtil.LogErrorToWindowsEventLog(Exception ex) in C:\Users\kheli\Desktop\Wal3a\Coding\ProgrammingAdvices\Projects\CodeGenerator_Project\Utility\clsUtil.cs:line 20
+The Zone of the assembly that failed was:
+MyComputer
+2/21/2025 4:58:10 PM - System.Security.SecurityException: The source was not found, but some or all event logs could not be searched.  Inaccessible logs: Security.
+   at System.Diagnostics.EventLog.FindSourceRegistration(String source, String machineName, Boolean readOnly, Boolean wantToCreate)
+   at System.Diagnostics.EventLog.SourceExists(String source, String machineName, Boolean wantToCreate)
+   at System.Diagnostics.EventLog.SourceExists(String source)
+   at CodeGenerator_Project.Utility.clsUtil.LogError(Exception ex) in C:\Users\kheli\Desktop\Wal3a\Coding\ProgrammingAdvices\Projects\CodeGenerator_Project\Utility\clsUtil.cs:line 75
+The Zone of the assembly that failed was:
+MyComputer
+2/21/2025 5:01:38 PM - System.Security.SecurityException: The source was not found, but some or all event logs could not be searched.  Inaccessible logs: Security.
+   at System.Diagnostics.EventLog.FindSourceRegistration(String source, String machineName, Boolean readOnly, Boolean wantToCreate)
+   at System.Diagnostics.EventLog.SourceExists(String source, String machineName, Boolean wantToCreate)
+   at System.Diagnostics.EventLog.SourceExists(String source)
+   at CodeGenerator_Project.Utility.clsUtil.LogError(Exception ex) in C:\Users\kheli\Desktop\Wal3a\Coding\ProgrammingAdvices\Projects\CodeGenerator_Project\Utility\clsUtil.cs:line 75
+The Zone of the assembly that failed was:
+MyComputer
+3/9/2025 3:50:15 PM - System.Security.SecurityException: The source was not found, but some or all event logs could not be searched.  Inaccessible logs: Security.
+   at System.Diagnostics.EventLog.FindSourceRegistration(String source, String machineName, Boolean readOnly, Boolean wantToCreate)
+   at System.Diagnostics.EventLog.SourceExists(String source, String machineName, Boolean wantToCreate)
+   at System.Diagnostics.EventLog.SourceExists(String source)
+   at CodeGenerator_Project.Utility.clsUtil.LogError(Exception ex) in C:\Users\kheli\Desktop\Wal3a\Coding\ProgrammingAdvices\Projects\CodeGenerator_Project\Utility\clsUtil.cs:line 76
+The Zone of the assembly that failed was:
+MyComputer
+3/9/2025 3:51:09 PM - System.Security.SecurityException: The source was not found, but some or all event logs could not be searched.  Inaccessible logs: Security.
+   at System.Diagnostics.EventLog.FindSourceRegistration(String source, String machineName, Boolean readOnly, Boolean wantToCreate)
+   at System.Diagnostics.EventLog.SourceExists(String source, String machineName, Boolean wantToCreate)
+   at System.Diagnostics.EventLog.SourceExists(String source)
+   at CodeGenerator_Project.Utility.clsUtil.LogError(Exception ex) in C:\Users\kheli\Desktop\Wal3a\Coding\ProgrammingAdvices\Projects\CodeGenerator_Project\Utility\clsUtil.cs:line 76
+The Zone of the assembly that failed was:
+MyComputer
+3/9/2025 3:51:15 PM - System.Security.SecurityException: The source was not found, but some or all event logs could not be searched.  Inaccessible logs: Security.
+   at System.Diagnostics.EventLog.FindSourceRegistration(String source, String machineName, Boolean readOnly, Boolean wantToCreate)
+   at System.Diagnostics.EventLog.SourceExists(String source, String machineName, Boolean wantToCreate)
+   at System.Diagnostics.EventLog.SourceExists(String source)
+   at CodeGenerator_Project.Utility.clsUtil.LogError(Exception ex) in C:\Users\kheli\Desktop\Wal3a\Coding\ProgrammingAdvices\Projects\CodeGenerator_Project\Utility\clsUtil.cs:line 76
+The Zone of the assembly that failed was:
+MyComputer
+3/9/2025 3:51:15 PM - System.Security.SecurityException: The source was not found, but some or all event logs could not be searched.  Inaccessible logs: Security.
+   at System.Diagnostics.EventLog.FindSourceRegistration(String source, String machineName, Boolean readOnly, Boolean wantToCreate)
+   at System.Diagnostics.EventLog.SourceExists(String source, String machineName, Boolean wantToCreate)
+   at System.Diagnostics.EventLog.SourceExists(String source)
+   at CodeGenerator_Project.Utility.clsUtil.LogError(Exception ex) in C:\Users\kheli\Desktop\Wal3a\Coding\ProgrammingAdvices\Projects\CodeGenerator_Project\Utility\clsUtil.cs:line 76
+The Zone of the assembly that failed was:
+MyComputer
+3/9/2025 3:51:18 PM - System.Security.SecurityException: The source was not found, but some or all event logs could not be searched.  Inaccessible logs: Security.
+   at System.Diagnostics.EventLog.FindSourceRegistration(String source, String machineName, Boolean readOnly, Boolean wantToCreate)
+   at System.Diagnostics.EventLog.SourceExists(String source, String machineName, Boolean wantToCreate)
+   at System.Diagnostics.EventLog.SourceExists(String source)
+   at CodeGenerator_Project.Utility.clsUtil.LogError(Exception ex) in C:\Users\kheli\Desktop\Wal3a\Coding\ProgrammingAdvices\Projects\CodeGenerator_Project\Utility\clsUtil.cs:line 76
+The Zone of the assembly that failed was:
+MyComputer
+3/9/2025 3:51:18 PM - System.Security.SecurityException: The source was not found, but some or all event logs could not be searched.  Inaccessible logs: Security.
+   at System.Diagnostics.EventLog.FindSourceRegistration(String source, String machineName, Boolean readOnly, Boolean wantToCreate)
+   at System.Diagnostics.EventLog.SourceExists(String source, String machineName, Boolean wantToCreate)
+   at System.Diagnostics.EventLog.SourceExists(String source)
+   at CodeGenerator_Project.Utility.clsUtil.LogError(Exception ex) in C:\Users\kheli\Desktop\Wal3a\Coding\ProgrammingAdvices\Projects\CodeGenerator_Project\Utility\clsUtil.cs:line 76
+The Zone of the assembly that failed was:
+MyComputer
+3/9/2025 3:51:18 PM - System.Security.SecurityException: The source was not found, but some or all event logs could not be searched.  Inaccessible logs: Security.
+   at System.Diagnostics.EventLog.FindSourceRegistration(String source, String machineName, Boolean readOnly, Boolean wantToCreate)
+   at System.Diagnostics.EventLog.SourceExists(String source, String machineName, Boolean wantToCreate)
+   at System.Diagnostics.EventLog.SourceExists(String source)
+   at CodeGenerator_Project.Utility.clsUtil.LogError(Exception ex) in C:\Users\kheli\Desktop\Wal3a\Coding\ProgrammingAdvices\Projects\CodeGenerator_Project\Utility\clsUtil.cs:line 76
+The Zone of the assembly that failed was:
+MyComputer
+3/9/2025 3:51:19 PM - System.Security.SecurityException: The source was not found, but some or all event logs could not be searched.  Inaccessible logs: Security.
+   at System.Diagnostics.EventLog.FindSourceRegistration(String source, String machineName, Boolean readOnly, Boolean wantToCreate)
+   at System.Diagnostics.EventLog.SourceExists(String source, String machineName, Boolean wantToCreate)
+   at System.Diagnostics.EventLog.SourceExists(String source)
+   at CodeGenerator_Project.Utility.clsUtil.LogError(Exception ex) in C:\Users\kheli\Desktop\Wal3a\Coding\ProgrammingAdvices\Projects\CodeGenerator_Project\Utility\clsUtil.cs:line 76
+The Zone of the assembly that failed was:
+MyComputer
+3/9/2025 3:51:19 PM - System.Security.SecurityException: The source was not found, but some or all event logs could not be searched.  Inaccessible logs: Security.
+   at System.Diagnostics.EventLog.FindSourceRegistration(String source, String machineName, Boolean readOnly, Boolean wantToCreate)
+   at System.Diagnostics.EventLog.SourceExists(String source, String machineName, Boolean wantToCreate)
+   at System.Diagnostics.EventLog.SourceExists(String source)
+   at CodeGenerator_Project.Utility.clsUtil.LogError(Exception ex) in C:\Users\kheli\Desktop\Wal3a\Coding\ProgrammingAdvices\Projects\CodeGenerator_Project\Utility\clsUtil.cs:line 76
+The Zone of the assembly that failed was:
+MyComputer
+3/9/2025 3:51:19 PM - System.Security.SecurityException: The source was not found, but some or all event logs could not be searched.  Inaccessible logs: Security.
+   at System.Diagnostics.EventLog.FindSourceRegistration(String source, String machineName, Boolean readOnly, Boolean wantToCreate)
+   at System.Diagnostics.EventLog.SourceExists(String source, String machineName, Boolean wantToCreate)
+   at System.Diagnostics.EventLog.SourceExists(String source)
+   at CodeGenerator_Project.Utility.clsUtil.LogError(Exception ex) in C:\Users\kheli\Desktop\Wal3a\Coding\ProgrammingAdvices\Projects\CodeGenerator_Project\Utility\clsUtil.cs:line 76
+The Zone of the assembly that failed was:
+MyComputer
+3/9/2025 3:51:19 PM - System.Security.SecurityException: The source was not found, but some or all event logs could not be searched.  Inaccessible logs: Security.
+   at System.Diagnostics.EventLog.FindSourceRegistration(String source, String machineName, Boolean readOnly, Boolean wantToCreate)
+   at System.Diagnostics.EventLog.SourceExists(String source, String machineName, Boolean wantToCreate)
+   at System.Diagnostics.EventLog.SourceExists(String source)
+   at CodeGenerator_Project.Utility.clsUtil.LogError(Exception ex) in C:\Users\kheli\Desktop\Wal3a\Coding\ProgrammingAdvices\Projects\CodeGenerator_Project\Utility\clsUtil.cs:line 76
+The Zone of the assembly that failed was:
+MyComputer
+3/9/2025 3:51:19 PM - System.Security.SecurityException: The source was not found, but some or all event logs could not be searched.  Inaccessible logs: Security.
+   at System.Diagnostics.EventLog.FindSourceRegistration(String source, String machineName, Boolean readOnly, Boolean wantToCreate)
+   at System.Diagnostics.EventLog.SourceExists(String source, String machineName, Boolean wantToCreate)
+   at System.Diagnostics.EventLog.SourceExists(String source)
+   at CodeGenerator_Project.Utility.clsUtil.LogError(Exception ex) in C:\Users\kheli\Desktop\Wal3a\Coding\ProgrammingAdvices\Projects\CodeGenerator_Project\Utility\clsUtil.cs:line 76
+The Zone of the assembly that failed was:
+MyComputer
+3/9/2025 3:51:19 PM - System.Security.SecurityException: The source was not found, but some or all event logs could not be searched.  Inaccessible logs: Security.
+   at System.Diagnostics.EventLog.FindSourceRegistration(String source, String machineName, Boolean readOnly, Boolean wantToCreate)
+   at System.Diagnostics.EventLog.SourceExists(String source, String machineName, Boolean wantToCreate)
+   at System.Diagnostics.EventLog.SourceExists(String source)
+   at CodeGenerator_Project.Utility.clsUtil.LogError(Exception ex) in C:\Users\kheli\Desktop\Wal3a\Coding\ProgrammingAdvices\Projects\CodeGenerator_Project\Utility\clsUtil.cs:line 76
+The Zone of the assembly that failed was:
+MyComputer
+3/9/2025 3:51:20 PM - System.Security.SecurityException: The source was not found, but some or all event logs could not be searched.  Inaccessible logs: Security.
+   at System.Diagnostics.EventLog.FindSourceRegistration(String source, String machineName, Boolean readOnly, Boolean wantToCreate)
+   at System.Diagnostics.EventLog.SourceExists(String source, String machineName, Boolean wantToCreate)
+   at System.Diagnostics.EventLog.SourceExists(String source)
+   at CodeGenerator_Project.Utility.clsUtil.LogError(Exception ex) in C:\Users\kheli\Desktop\Wal3a\Coding\ProgrammingAdvices\Projects\CodeGenerator_Project\Utility\clsUtil.cs:line 76
+The Zone of the assembly that failed was:
+MyComputer
+3/9/2025 3:51:20 PM - System.Security.SecurityException: The source was not found, but some or all event logs could not be searched.  Inaccessible logs: Security.
+   at System.Diagnostics.EventLog.FindSourceRegistration(String source, String machineName, Boolean readOnly, Boolean wantToCreate)
+   at System.Diagnostics.EventLog.SourceExists(String source, String machineName, Boolean wantToCreate)
+   at System.Diagnostics.EventLog.SourceExists(String source)
+   at CodeGenerator_Project.Utility.clsUtil.LogError(Exception ex) in C:\Users\kheli\Desktop\Wal3a\Coding\ProgrammingAdvices\Projects\CodeGenerator_Project\Utility\clsUtil.cs:line 76
+The Zone of the assembly that failed was:
+MyComputer
+3/9/2025 3:51:20 PM - System.Security.SecurityException: The source was not found, but some or all event logs could not be searched.  Inaccessible logs: Security.
+   at System.Diagnostics.EventLog.FindSourceRegistration(String source, String machineName, Boolean readOnly, Boolean wantToCreate)
+   at System.Diagnostics.EventLog.SourceExists(String source, String machineName, Boolean wantToCreate)
+   at System.Diagnostics.EventLog.SourceExists(String source)
+   at CodeGenerator_Project.Utility.clsUtil.LogError(Exception ex) in C:\Users\kheli\Desktop\Wal3a\Coding\ProgrammingAdvices\Projects\CodeGenerator_Project\Utility\clsUtil.cs:line 76
+The Zone of the assembly that failed was:
+MyComputer
+3/9/2025 3:52:07 PM - System.Security.SecurityException: The source was not found, but some or all event logs could not be searched.  Inaccessible logs: Security.
+   at System.Diagnostics.EventLog.FindSourceRegistration(String source, String machineName, Boolean readOnly, Boolean wantToCreate)
+   at System.Diagnostics.EventLog.SourceExists(String source, String machineName, Boolean wantToCreate)
+   at System.Diagnostics.EventLog.SourceExists(String source)
+   at CodeGenerator_Project.Utility.clsUtil.LogError(Exception ex) in C:\Users\kheli\Desktop\Wal3a\Coding\ProgrammingAdvices\Projects\CodeGenerator_Project\Utility\clsUtil.cs:line 76
+The Zone of the assembly that failed was:
+MyComputer
+3/9/2025 3:52:07 PM - System.Security.SecurityException: The source was not found, but some or all event logs could not be searched.  Inaccessible logs: Security.
+   at System.Diagnostics.EventLog.FindSourceRegistration(String source, String machineName, Boolean readOnly, Boolean wantToCreate)
+   at System.Diagnostics.EventLog.SourceExists(String source, String machineName, Boolean wantToCreate)
+   at System.Diagnostics.EventLog.SourceExists(String source)
+   at CodeGenerator_Project.Utility.clsUtil.LogError(Exception ex) in C:\Users\kheli\Desktop\Wal3a\Coding\ProgrammingAdvices\Projects\CodeGenerator_Project\Utility\clsUtil.cs:line 76
+The Zone of the assembly that failed was:
+MyComputer
+3/9/2025 3:52:07 PM - System.Security.SecurityException: The source was not found, but some or all event logs could not be searched.  Inaccessible logs: Security.
+   at System.Diagnostics.EventLog.FindSourceRegistration(String source, String machineName, Boolean readOnly, Boolean wantToCreate)
+   at System.Diagnostics.EventLog.SourceExists(String source, String machineName, Boolean wantToCreate)
+   at System.Diagnostics.EventLog.SourceExists(String source)
+   at CodeGenerator_Project.Utility.clsUtil.LogError(Exception ex) in C:\Users\kheli\Desktop\Wal3a\Coding\ProgrammingAdvices\Projects\CodeGenerator_Project\Utility\clsUtil.cs:line 76
+The Zone of the assembly that failed was:
+MyComputer
+3/9/2025 3:52:08 PM - System.Security.SecurityException: The source was not found, but some or all event logs could not be searched.  Inaccessible logs: Security.
+   at System.Diagnostics.EventLog.FindSourceRegistration(String source, String machineName, Boolean readOnly, Boolean wantToCreate)
+   at System.Diagnostics.EventLog.SourceExists(String source, String machineName, Boolean wantToCreate)
+   at System.Diagnostics.EventLog.SourceExists(String source)
+   at CodeGenerator_Project.Utility.clsUtil.LogError(Exception ex) in C:\Users\kheli\Desktop\Wal3a\Coding\ProgrammingAdvices\Projects\CodeGenerator_Project\Utility\clsUtil.cs:line 76
+The Zone of the assembly that failed was:
+MyComputer
+3/9/2025 3:52:08 PM - System.Security.SecurityException: The source was not found, but some or all event logs could not be searched.  Inaccessible logs: Security.
+   at System.Diagnostics.EventLog.FindSourceRegistration(String source, String machineName, Boolean readOnly, Boolean wantToCreate)
+   at System.Diagnostics.EventLog.SourceExists(String source, String machineName, Boolean wantToCreate)
+   at System.Diagnostics.EventLog.SourceExists(String source)
+   at CodeGenerator_Project.Utility.clsUtil.LogError(Exception ex) in C:\Users\kheli\Desktop\Wal3a\Coding\ProgrammingAdvices\Projects\CodeGenerator_Project\Utility\clsUtil.cs:line 76
+The Zone of the assembly that failed was:
+MyComputer
+3/9/2025 3:52:08 PM - System.Security.SecurityException: The source was not found, but some or all event logs could not be searched.  Inaccessible logs: Security.
+   at System.Diagnostics.EventLog.FindSourceRegistration(String source, String machineName, Boolean readOnly, Boolean wantToCreate)
+   at System.Diagnostics.EventLog.SourceExists(String source, String machineName, Boolean wantToCreate)
+   at System.Diagnostics.EventLog.SourceExists(String source)
+   at CodeGenerator_Project.Utility.clsUtil.LogError(Exception ex) in C:\Users\kheli\Desktop\Wal3a\Coding\ProgrammingAdvices\Projects\CodeGenerator_Project\Utility\clsUtil.cs:line 76
+The Zone of the assembly that failed was:
+MyComputer
+3/9/2025 3:52:09 PM - System.Security.SecurityException: The source was not found, but some or all event logs could not be searched.  Inaccessible logs: Security.
+   at System.Diagnostics.EventLog.FindSourceRegistration(String source, String machineName, Boolean readOnly, Boolean wantToCreate)
+   at System.Diagnostics.EventLog.SourceExists(String source, String machineName, Boolean wantToCreate)
+   at System.Diagnostics.EventLog.SourceExists(String source)
+   at CodeGenerator_Project.Utility.clsUtil.LogError(Exception ex) in C:\Users\kheli\Desktop\Wal3a\Coding\ProgrammingAdvices\Projects\CodeGenerator_Project\Utility\clsUtil.cs:line 76
+The Zone of the assembly that failed was:
+MyComputer
+3/9/2025 3:52:09 PM - System.Security.SecurityException: The source was not found, but some or all event logs could not be searched.  Inaccessible logs: Security.
+   at System.Diagnostics.EventLog.FindSourceRegistration(String source, String machineName, Boolean readOnly, Boolean wantToCreate)
+   at System.Diagnostics.EventLog.SourceExists(String source, String machineName, Boolean wantToCreate)
+   at System.Diagnostics.EventLog.SourceExists(String source)
+   at CodeGenerator_Project.Utility.clsUtil.LogError(Exception ex) in C:\Users\kheli\Desktop\Wal3a\Coding\ProgrammingAdvices\Projects\CodeGenerator_Project\Utility\clsUtil.cs:line 76
+The Zone of the assembly that failed was:
+MyComputer
+3/9/2025 3:52:09 PM - System.Security.SecurityException: The source was not found, but some or all event logs could not be searched.  Inaccessible logs: Security.
+   at System.Diagnostics.EventLog.FindSourceRegistration(String source, String machineName, Boolean readOnly, Boolean wantToCreate)
+   at System.Diagnostics.EventLog.SourceExists(String source, String machineName, Boolean wantToCreate)
+   at System.Diagnostics.EventLog.SourceExists(String source)
+   at CodeGenerator_Project.Utility.clsUtil.LogError(Exception ex) in C:\Users\kheli\Desktop\Wal3a\Coding\ProgrammingAdvices\Projects\CodeGenerator_Project\Utility\clsUtil.cs:line 76
+The Zone of the assembly that failed was:
+MyComputer
+3/9/2025 3:52:09 PM - System.Security.SecurityException: The source was not found, but some or all event logs could not be searched.  Inaccessible logs: Security.
+   at System.Diagnostics.EventLog.FindSourceRegistration(String source, String machineName, Boolean readOnly, Boolean wantToCreate)
+   at System.Diagnostics.EventLog.SourceExists(String source, String machineName, Boolean wantToCreate)
+   at System.Diagnostics.EventLog.SourceExists(String source)
+   at CodeGenerator_Project.Utility.clsUtil.LogError(Exception ex) in C:\Users\kheli\Desktop\Wal3a\Coding\ProgrammingAdvices\Projects\CodeGenerator_Project\Utility\clsUtil.cs:line 76
+The Zone of the assembly that failed was:
+MyComputer
+3/9/2025 3:52:09 PM - System.Security.SecurityException: The source was not found, but some or all event logs could not be searched.  Inaccessible logs: Security.
+   at System.Diagnostics.EventLog.FindSourceRegistration(String source, String machineName, Boolean readOnly, Boolean wantToCreate)
+   at System.Diagnostics.EventLog.SourceExists(String source, String machineName, Boolean wantToCreate)
+   at System.Diagnostics.EventLog.SourceExists(String source)
+   at CodeGenerator_Project.Utility.clsUtil.LogError(Exception ex) in C:\Users\kheli\Desktop\Wal3a\Coding\ProgrammingAdvices\Projects\CodeGenerator_Project\Utility\clsUtil.cs:line 76
+The Zone of the assembly that failed was:
+MyComputer
+3/9/2025 3:52:09 PM - System.Security.SecurityException: The source was not found, but some or all event logs could not be searched.  Inaccessible logs: Security.
+   at System.Diagnostics.EventLog.FindSourceRegistration(String source, String machineName, Boolean readOnly, Boolean wantToCreate)
+   at System.Diagnostics.EventLog.SourceExists(String source, String machineName, Boolean wantToCreate)
+   at System.Diagnostics.EventLog.SourceExists(String source)
+   at CodeGenerator_Project.Utility.clsUtil.LogError(Exception ex) in C:\Users\kheli\Desktop\Wal3a\Coding\ProgrammingAdvices\Projects\CodeGenerator_Project\Utility\clsUtil.cs:line 76
+The Zone of the assembly that failed was:
+MyComputer
+3/9/2025 3:52:10 PM - System.Security.SecurityException: The source was not found, but some or all event logs could not be searched.  Inaccessible logs: Security.
+   at System.Diagnostics.EventLog.FindSourceRegistration(String source, String machineName, Boolean readOnly, Boolean wantToCreate)
+   at System.Diagnostics.EventLog.SourceExists(String source, String machineName, Boolean wantToCreate)
+   at System.Diagnostics.EventLog.SourceExists(String source)
+   at CodeGenerator_Project.Utility.clsUtil.LogError(Exception ex) in C:\Users\kheli\Desktop\Wal3a\Coding\ProgrammingAdvices\Projects\CodeGenerator_Project\Utility\clsUtil.cs:line 76
+The Zone of the assembly that failed was:
+MyComputer
+3/9/2025 3:52:10 PM - System.Security.SecurityException: The source was not found, but some or all event logs could not be searched.  Inaccessible logs: Security.
+   at System.Diagnostics.EventLog.FindSourceRegistration(String source, String machineName, Boolean readOnly, Boolean wantToCreate)
+   at System.Diagnostics.EventLog.SourceExists(String source, String machineName, Boolean wantToCreate)
+   at System.Diagnostics.EventLog.SourceExists(String source)
+   at CodeGenerator_Project.Utility.clsUtil.LogError(Exception ex) in C:\Users\kheli\Desktop\Wal3a\Coding\ProgrammingAdvices\Projects\CodeGenerator_Project\Utility\clsUtil.cs:line 76
+The Zone of the assembly that failed was:
+MyComputer
+3/9/2025 3:52:10 PM - System.Security.SecurityException: The source was not found, but some or all event logs could not be searched.  Inaccessible logs: Security.
+   at System.Diagnostics.EventLog.FindSourceRegistration(String source, String machineName, Boolean readOnly, Boolean wantToCreate)
+   at System.Diagnostics.EventLog.SourceExists(String source, String machineName, Boolean wantToCreate)
+   at System.Diagnostics.EventLog.SourceExists(String source)
+   at CodeGenerator_Project.Utility.clsUtil.LogError(Exception ex) in C:\Users\kheli\Desktop\Wal3a\Coding\ProgrammingAdvices\Projects\CodeGenerator_Project\Utility\clsUtil.cs:line 76
+The Zone of the assembly that failed was:
+MyComputer
+3/9/2025 3:52:10 PM - System.Security.SecurityException: The source was not found, but some or all event logs could not be searched.  Inaccessible logs: Security.
+   at System.Diagnostics.EventLog.FindSourceRegistration(String source, String machineName, Boolean readOnly, Boolean wantToCreate)
+   at System.Diagnostics.EventLog.SourceExists(String source, String machineName, Boolean wantToCreate)
+   at System.Diagnostics.EventLog.SourceExists(String source)
+   at CodeGenerator_Project.Utility.clsUtil.LogError(Exception ex) in C:\Users\kheli\Desktop\Wal3a\Coding\ProgrammingAdvices\Projects\CodeGenerator_Project\Utility\clsUtil.cs:line 76
+The Zone of the assembly that failed was:
+MyComputer
+3/9/2025 3:52:10 PM - System.Security.SecurityException: The source was not found, but some or all event logs could not be searched.  Inaccessible logs: Security.
+   at System.Diagnostics.EventLog.FindSourceRegistration(String source, String machineName, Boolean readOnly, Boolean wantToCreate)
+   at System.Diagnostics.EventLog.SourceExists(String source, String machineName, Boolean wantToCreate)
+   at System.Diagnostics.EventLog.SourceExists(String source)
+   at CodeGenerator_Project.Utility.clsUtil.LogError(Exception ex) in C:\Users\kheli\Desktop\Wal3a\Coding\ProgrammingAdvices\Projects\CodeGenerator_Project\Utility\clsUtil.cs:line 76
+The Zone of the assembly that failed was:
+MyComputer
+3/9/2025 3:52:10 PM - System.Security.SecurityException: The source was not found, but some or all event logs could not be searched.  Inaccessible logs: Security.
+   at System.Diagnostics.EventLog.FindSourceRegistration(String source, String machineName, Boolean readOnly, Boolean wantToCreate)
+   at System.Diagnostics.EventLog.SourceExists(String source, String machineName, Boolean wantToCreate)
+   at System.Diagnostics.EventLog.SourceExists(String source)
+   at CodeGenerator_Project.Utility.clsUtil.LogError(Exception ex) in C:\Users\kheli\Desktop\Wal3a\Coding\ProgrammingAdvices\Projects\CodeGenerator_Project\Utility\clsUtil.cs:line 76
+The Zone of the assembly that failed was:
+MyComputer
+3/9/2025 3:52:10 PM - System.Security.SecurityException: The source was not found, but some or all event logs could not be searched.  Inaccessible logs: Security.
+   at System.Diagnostics.EventLog.FindSourceRegistration(String source, String machineName, Boolean readOnly, Boolean wantToCreate)
+   at System.Diagnostics.EventLog.SourceExists(String source, String machineName, Boolean wantToCreate)
+   at System.Diagnostics.EventLog.SourceExists(String source)
+   at CodeGenerator_Project.Utility.clsUtil.LogError(Exception ex) in C:\Users\kheli\Desktop\Wal3a\Coding\ProgrammingAdvices\Projects\CodeGenerator_Project\Utility\clsUtil.cs:line 76
+The Zone of the assembly that failed was:
+MyComputer
+3/9/2025 3:52:10 PM - System.Security.SecurityException: The source was not found, but some or all event logs could not be searched.  Inaccessible logs: Security.
+   at System.Diagnostics.EventLog.FindSourceRegistration(String source, String machineName, Boolean readOnly, Boolean wantToCreate)
+   at System.Diagnostics.EventLog.SourceExists(String source, String machineName, Boolean wantToCreate)
+   at System.Diagnostics.EventLog.SourceExists(String source)
+   at CodeGenerator_Project.Utility.clsUtil.LogError(Exception ex) in C:\Users\kheli\Desktop\Wal3a\Coding\ProgrammingAdvices\Projects\CodeGenerator_Project\Utility\clsUtil.cs:line 76
+The Zone of the assembly that failed was:
+MyComputer
+3/9/2025 3:52:10 PM - System.Security.SecurityException: The source was not found, but some or all event logs could not be searched.  Inaccessible logs: Security.
+   at System.Diagnostics.EventLog.FindSourceRegistration(String source, String machineName, Boolean readOnly, Boolean wantToCreate)
+   at System.Diagnostics.EventLog.SourceExists(String source, String machineName, Boolean wantToCreate)
+   at System.Diagnostics.EventLog.SourceExists(String source)
+   at CodeGenerator_Project.Utility.clsUtil.LogError(Exception ex) in C:\Users\kheli\Desktop\Wal3a\Coding\ProgrammingAdvices\Projects\CodeGenerator_Project\Utility\clsUtil.cs:line 76
+The Zone of the assembly that failed was:
+MyComputer
+3/9/2025 3:53:35 PM - System.Security.SecurityException: The source was not found, but some or all event logs could not be searched.  Inaccessible logs: Security.
+   at System.Diagnostics.EventLog.FindSourceRegistration(String source, String machineName, Boolean readOnly, Boolean wantToCreate)
+   at System.Diagnostics.EventLog.SourceExists(String source, String machineName, Boolean wantToCreate)
+   at System.Diagnostics.EventLog.SourceExists(String source)
+   at CodeGenerator_Project.Utility.clsUtil.LogError(Exception ex) in C:\Users\kheli\Desktop\Wal3a\Coding\ProgrammingAdvices\Projects\CodeGenerator_Project\Utility\clsUtil.cs:line 76
+The Zone of the assembly that failed was:
+MyComputer
+3/9/2025 3:53:49 PM - System.Security.SecurityException: The source was not found, but some or all event logs could not be searched.  Inaccessible logs: Security.
+   at System.Diagnostics.EventLog.FindSourceRegistration(String source, String machineName, Boolean readOnly, Boolean wantToCreate)
+   at System.Diagnostics.EventLog.SourceExists(String source, String machineName, Boolean wantToCreate)
+   at System.Diagnostics.EventLog.SourceExists(String source)
+   at CodeGenerator_Project.Utility.clsUtil.LogError(Exception ex) in C:\Users\kheli\Desktop\Wal3a\Coding\ProgrammingAdvices\Projects\CodeGenerator_Project\Utility\clsUtil.cs:line 76
+The Zone of the assembly that failed was:
+MyComputer
+3/9/2025 3:53:52 PM - System.Security.SecurityException: The source was not found, but some or all event logs could not be searched.  Inaccessible logs: Security.
+   at System.Diagnostics.EventLog.FindSourceRegistration(String source, String machineName, Boolean readOnly, Boolean wantToCreate)
+   at System.Diagnostics.EventLog.SourceExists(String source, String machineName, Boolean wantToCreate)
+   at System.Diagnostics.EventLog.SourceExists(String source)
+   at CodeGenerator_Project.Utility.clsUtil.LogError(Exception ex) in C:\Users\kheli\Desktop\Wal3a\Coding\ProgrammingAdvices\Projects\CodeGenerator_Project\Utility\clsUtil.cs:line 76
+The Zone of the assembly that failed was:
+MyComputer
+3/9/2025 3:54:42 PM - System.Security.SecurityException: The source was not found, but some or all event logs could not be searched.  Inaccessible logs: Security.
+   at System.Diagnostics.EventLog.FindSourceRegistration(String source, String machineName, Boolean readOnly, Boolean wantToCreate)
+   at System.Diagnostics.EventLog.SourceExists(String source, String machineName, Boolean wantToCreate)
+   at System.Diagnostics.EventLog.SourceExists(String source)
+   at CodeGenerator_Project.Utility.clsUtil.LogError(Exception ex) in C:\Users\kheli\Desktop\Wal3a\Coding\ProgrammingAdvices\Projects\CodeGenerator_Project\Utility\clsUtil.cs:line 76
+The Zone of the assembly that failed was:
+MyComputer
+3/9/2025 3:54:46 PM - System.Security.SecurityException: The source was not found, but some or all event logs could not be searched.  Inaccessible logs: Security.
+   at System.Diagnostics.EventLog.FindSourceRegistration(String source, String machineName, Boolean readOnly, Boolean wantToCreate)
+   at System.Diagnostics.EventLog.SourceExists(String source, String machineName, Boolean wantToCreate)
+   at System.Diagnostics.EventLog.SourceExists(String source)
+   at CodeGenerator_Project.Utility.clsUtil.LogError(Exception ex) in C:\Users\kheli\Desktop\Wal3a\Coding\ProgrammingAdvices\Projects\CodeGenerator_Project\Utility\clsUtil.cs:line 76
+The Zone of the assembly that failed was:
+MyComputer
+3/9/2025 3:54:48 PM - System.Security.SecurityException: The source was not found, but some or all event logs could not be searched.  Inaccessible logs: Security.
+   at System.Diagnostics.EventLog.FindSourceRegistration(String source, String machineName, Boolean readOnly, Boolean wantToCreate)
+   at System.Diagnostics.EventLog.SourceExists(String source, String machineName, Boolean wantToCreate)
+   at System.Diagnostics.EventLog.SourceExists(String source)
+   at CodeGenerator_Project.Utility.clsUtil.LogError(Exception ex) in C:\Users\kheli\Desktop\Wal3a\Coding\ProgrammingAdvices\Projects\CodeGenerator_Project\Utility\clsUtil.cs:line 76
+The Zone of the assembly that failed was:
+MyComputer
+3/9/2025 4:00:46 PM - System.Security.SecurityException: The source was not found, but some or all event logs could not be searched.  Inaccessible logs: Security.
+   at System.Diagnostics.EventLog.FindSourceRegistration(String source, String machineName, Boolean readOnly, Boolean wantToCreate)
+   at System.Diagnostics.EventLog.SourceExists(String source, String machineName, Boolean wantToCreate)
+   at System.Diagnostics.EventLog.SourceExists(String source)
+   at CodeGenerator_Project.Utility.clsUtil.LogError(Exception ex) in C:\Users\kheli\Desktop\Wal3a\Coding\ProgrammingAdvices\Projects\CodeGenerator_Project\Utility\clsUtil.cs:line 76
+The Zone of the assembly that failed was:
+MyComputer
+3/9/2025 4:03:14 PM - System.Security.SecurityException: The source was not found, but some or all event logs could not be searched.  Inaccessible logs: Security.
+   at System.Diagnostics.EventLog.FindSourceRegistration(String source, String machineName, Boolean readOnly, Boolean wantToCreate)
+   at System.Diagnostics.EventLog.SourceExists(String source, String machineName, Boolean wantToCreate)
+   at System.Diagnostics.EventLog.SourceExists(String source)
+   at CodeGenerator_Project.Utility.clsUtil.LogError(Exception ex) in C:\Users\kheli\Desktop\Wal3a\Coding\ProgrammingAdvices\Projects\CodeGenerator_Project\Utility\clsUtil.cs:line 76
+The Zone of the assembly that failed was:
+MyComputer
+3/9/2025 4:03:19 PM - System.Security.SecurityException: The source was not found, but some or all event logs could not be searched.  Inaccessible logs: Security.
+   at System.Diagnostics.EventLog.FindSourceRegistration(String source, String machineName, Boolean readOnly, Boolean wantToCreate)
+   at System.Diagnostics.EventLog.SourceExists(String source, String machineName, Boolean wantToCreate)
+   at System.Diagnostics.EventLog.SourceExists(String source)
+   at CodeGenerator_Project.Utility.clsUtil.LogError(Exception ex) in C:\Users\kheli\Desktop\Wal3a\Coding\ProgrammingAdvices\Projects\CodeGenerator_Project\Utility\clsUtil.cs:line 76
+The Zone of the assembly that failed was:
+MyComputer
+3/9/2025 4:03:25 PM - System.Security.SecurityException: The source was not found, but some or all event logs could not be searched.  Inaccessible logs: Security.
+   at System.Diagnostics.EventLog.FindSourceRegistration(String source, String machineName, Boolean readOnly, Boolean wantToCreate)
+   at System.Diagnostics.EventLog.SourceExists(String source, String machineName, Boolean wantToCreate)
+   at System.Diagnostics.EventLog.SourceExists(String source)
+   at CodeGenerator_Project.Utility.clsUtil.LogError(Exception ex) in C:\Users\kheli\Desktop\Wal3a\Coding\ProgrammingAdvices\Projects\CodeGenerator_Project\Utility\clsUtil.cs:line 76
+The Zone of the assembly that failed was:
+MyComputer
+3/9/2025 4:23:36 PM - System.Security.SecurityException: The source was not found, but some or all event logs could not be searched.  Inaccessible logs: Security.
+   at System.Diagnostics.EventLog.FindSourceRegistration(String source, String machineName, Boolean readOnly, Boolean wantToCreate)
+   at System.Diagnostics.EventLog.SourceExists(String source, String machineName, Boolean wantToCreate)
+   at System.Diagnostics.EventLog.SourceExists(String source)
+   at CodeGenerator_Project.Utility.clsUtil.LogError(Exception ex) in C:\Users\kheli\Desktop\Wal3a\Coding\ProgrammingAdvices\Projects\CodeGenerator_Project\Utility\clsUtil.cs:line 76
+The Zone of the assembly that failed was:
+MyComputer
+3/9/2025 4:23:42 PM - System.Security.SecurityException: The source was not found, but some or all event logs could not be searched.  Inaccessible logs: Security.
+   at System.Diagnostics.EventLog.FindSourceRegistration(String source, String machineName, Boolean readOnly, Boolean wantToCreate)
+   at System.Diagnostics.EventLog.SourceExists(String source, String machineName, Boolean wantToCreate)
+   at System.Diagnostics.EventLog.SourceExists(String source)
+   at CodeGenerator_Project.Utility.clsUtil.LogError(Exception ex) in C:\Users\kheli\Desktop\Wal3a\Coding\ProgrammingAdvices\Projects\CodeGenerator_Project\Utility\clsUtil.cs:line 76
+The Zone of the assembly that failed was:
+MyComputer
+3/9/2025 4:23:44 PM - System.Security.SecurityException: The source was not found, but some or all event logs could not be searched.  Inaccessible logs: Security.
+   at System.Diagnostics.EventLog.FindSourceRegistration(String source, String machineName, Boolean readOnly, Boolean wantToCreate)
+   at System.Diagnostics.EventLog.SourceExists(String source, String machineName, Boolean wantToCreate)
+   at System.Diagnostics.EventLog.SourceExists(String source)
+   at CodeGenerator_Project.Utility.clsUtil.LogError(Exception ex) in C:\Users\kheli\Desktop\Wal3a\Coding\ProgrammingAdvices\Projects\CodeGenerator_Project\Utility\clsUtil.cs:line 76
+The Zone of the assembly that failed was:
+MyComputer
+3/9/2025 4:24:09 PM - System.Security.SecurityException: The source was not found, but some or all event logs could not be searched.  Inaccessible logs: Security.
+   at System.Diagnostics.EventLog.FindSourceRegistration(String source, String machineName, Boolean readOnly, Boolean wantToCreate)
+   at System.Diagnostics.EventLog.SourceExists(String source, String machineName, Boolean wantToCreate)
+   at System.Diagnostics.EventLog.SourceExists(String source)
+   at CodeGenerator_Project.Utility.clsUtil.LogError(Exception ex) in C:\Users\kheli\Desktop\Wal3a\Coding\ProgrammingAdvices\Projects\CodeGenerator_Project\Utility\clsUtil.cs:line 76
+The Zone of the assembly that failed was:
+MyComputer
+3/9/2025 4:24:14 PM - System.Security.SecurityException: The source was not found, but some or all event logs could not be searched.  Inaccessible logs: Security.
+   at System.Diagnostics.EventLog.FindSourceRegistration(String source, String machineName, Boolean readOnly, Boolean wantToCreate)
+   at System.Diagnostics.EventLog.SourceExists(String source, String machineName, Boolean wantToCreate)
+   at System.Diagnostics.EventLog.SourceExists(String source)
+   at CodeGenerator_Project.Utility.clsUtil.LogError(Exception ex) in C:\Users\kheli\Desktop\Wal3a\Coding\ProgrammingAdvices\Projects\CodeGenerator_Project\Utility\clsUtil.cs:line 76
+The Zone of the assembly that failed was:
+MyComputer
+3/9/2025 4:24:17 PM - System.Security.SecurityException: The source was not found, but some or all event logs could not be searched.  Inaccessible logs: Security.
+   at System.Diagnostics.EventLog.FindSourceRegistration(String source, String machineName, Boolean readOnly, Boolean wantToCreate)
+   at System.Diagnostics.EventLog.SourceExists(String source, String machineName, Boolean wantToCreate)
+   at System.Diagnostics.EventLog.SourceExists(String source)
+   at CodeGenerator_Project.Utility.clsUtil.LogError(Exception ex) in C:\Users\kheli\Desktop\Wal3a\Coding\ProgrammingAdvices\Projects\CodeGenerator_Project\Utility\clsUtil.cs:line 76
+The Zone of the assembly that failed was:
+MyComputer
+3/9/2025 4:24:42 PM - System.Security.SecurityException: The source was not found, but some or all event logs could not be searched.  Inaccessible logs: Security.
+   at System.Diagnostics.EventLog.FindSourceRegistration(String source, String machineName, Boolean readOnly, Boolean wantToCreate)
+   at System.Diagnostics.EventLog.SourceExists(String source, String machineName, Boolean wantToCreate)
+   at System.Diagnostics.EventLog.SourceExists(String source)
+   at CodeGenerator_Project.Utility.clsUtil.LogError(Exception ex) in C:\Users\kheli\Desktop\Wal3a\Coding\ProgrammingAdvices\Projects\CodeGenerator_Project\Utility\clsUtil.cs:line 76
+The Zone of the assembly that failed was:
+MyComputer
+3/9/2025 4:24:45 PM - System.Security.SecurityException: The source was not found, but some or all event logs could not be searched.  Inaccessible logs: Security.
+   at System.Diagnostics.EventLog.FindSourceRegistration(String source, String machineName, Boolean readOnly, Boolean wantToCreate)
+   at System.Diagnostics.EventLog.SourceExists(String source, String machineName, Boolean wantToCreate)
+   at System.Diagnostics.EventLog.SourceExists(String source)
+   at CodeGenerator_Project.Utility.clsUtil.LogError(Exception ex) in C:\Users\kheli\Desktop\Wal3a\Coding\ProgrammingAdvices\Projects\CodeGenerator_Project\Utility\clsUtil.cs:line 76
+The Zone of the assembly that failed was:
+MyComputer
+3/9/2025 4:24:46 PM - System.Security.SecurityException: The source was not found, but some or all event logs could not be searched.  Inaccessible logs: Security.
+   at System.Diagnostics.EventLog.FindSourceRegistration(String source, String machineName, Boolean readOnly, Boolean wantToCreate)
+   at System.Diagnostics.EventLog.SourceExists(String source, String machineName, Boolean wantToCreate)
+   at System.Diagnostics.EventLog.SourceExists(String source)
+   at CodeGenerator_Project.Utility.clsUtil.LogError(Exception ex) in C:\Users\kheli\Desktop\Wal3a\Coding\ProgrammingAdvices\Projects\CodeGenerator_Project\Utility\clsUtil.cs:line 76
+The Zone of the assembly that failed was:
+MyComputer
+3/9/2025 4:24:47 PM - System.Security.SecurityException: The source was not found, but some or all event logs could not be searched.  Inaccessible logs: Security.
+   at System.Diagnostics.EventLog.FindSourceRegistration(String source, String machineName, Boolean readOnly, Boolean wantToCreate)
+   at System.Diagnostics.EventLog.SourceExists(String source, String machineName, Boolean wantToCreate)
+   at System.Diagnostics.EventLog.SourceExists(String source)
+   at CodeGenerator_Project.Utility.clsUtil.LogError(Exception ex) in C:\Users\kheli\Desktop\Wal3a\Coding\ProgrammingAdvices\Projects\CodeGenerator_Project\Utility\clsUtil.cs:line 76
+The Zone of the assembly that failed was:
+MyComputer
+3/9/2025 4:24:52 PM - System.Security.SecurityException: The source was not found, but some or all event logs could not be searched.  Inaccessible logs: Security.
+   at System.Diagnostics.EventLog.FindSourceRegistration(String source, String machineName, Boolean readOnly, Boolean wantToCreate)
+   at System.Diagnostics.EventLog.SourceExists(String source, String machineName, Boolean wantToCreate)
+   at System.Diagnostics.EventLog.SourceExists(String source)
+   at CodeGenerator_Project.Utility.clsUtil.LogError(Exception ex) in C:\Users\kheli\Desktop\Wal3a\Coding\ProgrammingAdvices\Projects\CodeGenerator_Project\Utility\clsUtil.cs:line 76
+The Zone of the assembly that failed was:
+MyComputer
+3/9/2025 4:24:54 PM - System.Security.SecurityException: The source was not found, but some or all event logs could not be searched.  Inaccessible logs: Security.
+   at System.Diagnostics.EventLog.FindSourceRegistration(String source, String machineName, Boolean readOnly, Boolean wantToCreate)
+   at System.Diagnostics.EventLog.SourceExists(String source, String machineName, Boolean wantToCreate)
+   at System.Diagnostics.EventLog.SourceExists(String source)
+   at CodeGenerator_Project.Utility.clsUtil.LogError(Exception ex) in C:\Users\kheli\Desktop\Wal3a\Coding\ProgrammingAdvices\Projects\CodeGenerator_Project\Utility\clsUtil.cs:line 76
+The Zone of the assembly that failed was:
+MyComputer
+3/9/2025 4:24:55 PM - System.Security.SecurityException: The source was not found, but some or all event logs could not be searched.  Inaccessible logs: Security.
+   at System.Diagnostics.EventLog.FindSourceRegistration(String source, String machineName, Boolean readOnly, Boolean wantToCreate)
+   at System.Diagnostics.EventLog.SourceExists(String source, String machineName, Boolean wantToCreate)
+   at System.Diagnostics.EventLog.SourceExists(String source)
+   at CodeGenerator_Project.Utility.clsUtil.LogError(Exception ex) in C:\Users\kheli\Desktop\Wal3a\Coding\ProgrammingAdvices\Projects\CodeGenerator_Project\Utility\clsUtil.cs:line 76
+The Zone of the assembly that failed was:
+MyComputer
+3/9/2025 4:24:56 PM - System.Security.SecurityException: The source was not found, but some or all event logs could not be searched.  Inaccessible logs: Security.
+   at System.Diagnostics.EventLog.FindSourceRegistration(String source, String machineName, Boolean readOnly, Boolean wantToCreate)
+   at System.Diagnostics.EventLog.SourceExists(String source, String machineName, Boolean wantToCreate)
+   at System.Diagnostics.EventLog.SourceExists(String source)
+   at CodeGenerator_Project.Utility.clsUtil.LogError(Exception ex) in C:\Users\kheli\Desktop\Wal3a\Coding\ProgrammingAdvices\Projects\CodeGenerator_Project\Utility\clsUtil.cs:line 76
+The Zone of the assembly that failed was:
+MyComputer
+3/9/2025 4:24:56 PM - System.Security.SecurityException: The source was not found, but some or all event logs could not be searched.  Inaccessible logs: Security.
+   at System.Diagnostics.EventLog.FindSourceRegistration(String source, String machineName, Boolean readOnly, Boolean wantToCreate)
+   at System.Diagnostics.EventLog.SourceExists(String source, String machineName, Boolean wantToCreate)
+   at System.Diagnostics.EventLog.SourceExists(String source)
+   at CodeGenerator_Project.Utility.clsUtil.LogError(Exception ex) in C:\Users\kheli\Desktop\Wal3a\Coding\ProgrammingAdvices\Projects\CodeGenerator_Project\Utility\clsUtil.cs:line 76
+The Zone of the assembly that failed was:
+MyComputer
+3/9/2025 4:24:57 PM - System.Security.SecurityException: The source was not found, but some or all event logs could not be searched.  Inaccessible logs: Security.
+   at System.Diagnostics.EventLog.FindSourceRegistration(String source, String machineName, Boolean readOnly, Boolean wantToCreate)
+   at System.Diagnostics.EventLog.SourceExists(String source, String machineName, Boolean wantToCreate)
+   at System.Diagnostics.EventLog.SourceExists(String source)
+   at CodeGenerator_Project.Utility.clsUtil.LogError(Exception ex) in C:\Users\kheli\Desktop\Wal3a\Coding\ProgrammingAdvices\Projects\CodeGenerator_Project\Utility\clsUtil.cs:line 76
+The Zone of the assembly that failed was:
+MyComputer
+3/9/2025 4:24:57 PM - System.Security.SecurityException: The source was not found, but some or all event logs could not be searched.  Inaccessible logs: Security.
+   at System.Diagnostics.EventLog.FindSourceRegistration(String source, String machineName, Boolean readOnly, Boolean wantToCreate)
+   at System.Diagnostics.EventLog.SourceExists(String source, String machineName, Boolean wantToCreate)
+   at System.Diagnostics.EventLog.SourceExists(String source)
+   at CodeGenerator_Project.Utility.clsUtil.LogError(Exception ex) in C:\Users\kheli\Desktop\Wal3a\Coding\ProgrammingAdvices\Projects\CodeGenerator_Project\Utility\clsUtil.cs:line 76
+The Zone of the assembly that failed was:
+MyComputer
+3/9/2025 4:24:58 PM - System.Security.SecurityException: The source was not found, but some or all event logs could not be searched.  Inaccessible logs: Security.
+   at System.Diagnostics.EventLog.FindSourceRegistration(String source, String machineName, Boolean readOnly, Boolean wantToCreate)
+   at System.Diagnostics.EventLog.SourceExists(String source, String machineName, Boolean wantToCreate)
+   at System.Diagnostics.EventLog.SourceExists(String source)
+   at CodeGenerator_Project.Utility.clsUtil.LogError(Exception ex) in C:\Users\kheli\Desktop\Wal3a\Coding\ProgrammingAdvices\Projects\CodeGenerator_Project\Utility\clsUtil.cs:line 76
+The Zone of the assembly that failed was:
+MyComputer
+3/9/2025 4:24:59 PM - System.Security.SecurityException: The source was not found, but some or all event logs could not be searched.  Inaccessible logs: Security.
+   at System.Diagnostics.EventLog.FindSourceRegistration(String source, String machineName, Boolean readOnly, Boolean wantToCreate)
+   at System.Diagnostics.EventLog.SourceExists(String source, String machineName, Boolean wantToCreate)
+   at System.Diagnostics.EventLog.SourceExists(String source)
+   at CodeGenerator_Project.Utility.clsUtil.LogError(Exception ex) in C:\Users\kheli\Desktop\Wal3a\Coding\ProgrammingAdvices\Projects\CodeGenerator_Project\Utility\clsUtil.cs:line 76
+The Zone of the assembly that failed was:
+MyComputer
+3/9/2025 4:24:59 PM - System.Security.SecurityException: The source was not found, but some or all event logs could not be searched.  Inaccessible logs: Security.
+   at System.Diagnostics.EventLog.FindSourceRegistration(String source, String machineName, Boolean readOnly, Boolean wantToCreate)
+   at System.Diagnostics.EventLog.SourceExists(String source, String machineName, Boolean wantToCreate)
+   at System.Diagnostics.EventLog.SourceExists(String source)
+   at CodeGenerator_Project.Utility.clsUtil.LogError(Exception ex) in C:\Users\kheli\Desktop\Wal3a\Coding\ProgrammingAdvices\Projects\CodeGenerator_Project\Utility\clsUtil.cs:line 76
+The Zone of the assembly that failed was:
+MyComputer
+3/9/2025 4:24:59 PM - System.Security.SecurityException: The source was not found, but some or all event logs could not be searched.  Inaccessible logs: Security.
+   at System.Diagnostics.EventLog.FindSourceRegistration(String source, String machineName, Boolean readOnly, Boolean wantToCreate)
+   at System.Diagnostics.EventLog.SourceExists(String source, String machineName, Boolean wantToCreate)
+   at System.Diagnostics.EventLog.SourceExists(String source)
+   at CodeGenerator_Project.Utility.clsUtil.LogError(Exception ex) in C:\Users\kheli\Desktop\Wal3a\Coding\ProgrammingAdvices\Projects\CodeGenerator_Project\Utility\clsUtil.cs:line 76
+The Zone of the assembly that failed was:
+MyComputer
+3/9/2025 4:24:59 PM - System.Security.SecurityException: The source was not found, but some or all event logs could not be searched.  Inaccessible logs: Security.
+   at System.Diagnostics.EventLog.FindSourceRegistration(String source, String machineName, Boolean readOnly, Boolean wantToCreate)
+   at System.Diagnostics.EventLog.SourceExists(String source, String machineName, Boolean wantToCreate)
+   at System.Diagnostics.EventLog.SourceExists(String source)
+   at CodeGenerator_Project.Utility.clsUtil.LogError(Exception ex) in C:\Users\kheli\Desktop\Wal3a\Coding\ProgrammingAdvices\Projects\CodeGenerator_Project\Utility\clsUtil.cs:line 76
+The Zone of the assembly that failed was:
+MyComputer
+3/9/2025 4:24:59 PM - System.Security.SecurityException: The source was not found, but some or all event logs could not be searched.  Inaccessible logs: Security.
+   at System.Diagnostics.EventLog.FindSourceRegistration(String source, String machineName, Boolean readOnly, Boolean wantToCreate)
+   at System.Diagnostics.EventLog.SourceExists(String source, String machineName, Boolean wantToCreate)
+   at System.Diagnostics.EventLog.SourceExists(String source)
+   at CodeGenerator_Project.Utility.clsUtil.LogError(Exception ex) in C:\Users\kheli\Desktop\Wal3a\Coding\ProgrammingAdvices\Projects\CodeGenerator_Project\Utility\clsUtil.cs:line 76
+The Zone of the assembly that failed was:
+MyComputer
+3/9/2025 4:24:59 PM - System.Security.SecurityException: The source was not found, but some or all event logs could not be searched.  Inaccessible logs: Security.
+   at System.Diagnostics.EventLog.FindSourceRegistration(String source, String machineName, Boolean readOnly, Boolean wantToCreate)
+   at System.Diagnostics.EventLog.SourceExists(String source, String machineName, Boolean wantToCreate)
+   at System.Diagnostics.EventLog.SourceExists(String source)
+   at CodeGenerator_Project.Utility.clsUtil.LogError(Exception ex) in C:\Users\kheli\Desktop\Wal3a\Coding\ProgrammingAdvices\Projects\CodeGenerator_Project\Utility\clsUtil.cs:line 76
+The Zone of the assembly that failed was:
+MyComputer
+3/9/2025 4:24:59 PM - System.Security.SecurityException: The source was not found, but some or all event logs could not be searched.  Inaccessible logs: Security.
+   at System.Diagnostics.EventLog.FindSourceRegistration(String source, String machineName, Boolean readOnly, Boolean wantToCreate)
+   at System.Diagnostics.EventLog.SourceExists(String source, String machineName, Boolean wantToCreate)
+   at System.Diagnostics.EventLog.SourceExists(String source)
+   at CodeGenerator_Project.Utility.clsUtil.LogError(Exception ex) in C:\Users\kheli\Desktop\Wal3a\Coding\ProgrammingAdvices\Projects\CodeGenerator_Project\Utility\clsUtil.cs:line 76
+The Zone of the assembly that failed was:
+MyComputer
+3/9/2025 4:24:59 PM - System.Security.SecurityException: The source was not found, but some or all event logs could not be searched.  Inaccessible logs: Security.
+   at System.Diagnostics.EventLog.FindSourceRegistration(String source, String machineName, Boolean readOnly, Boolean wantToCreate)
+   at System.Diagnostics.EventLog.SourceExists(String source, String machineName, Boolean wantToCreate)
+   at System.Diagnostics.EventLog.SourceExists(String source)
+   at CodeGenerator_Project.Utility.clsUtil.LogError(Exception ex) in C:\Users\kheli\Desktop\Wal3a\Coding\ProgrammingAdvices\Projects\CodeGenerator_Project\Utility\clsUtil.cs:line 76
+The Zone of the assembly that failed was:
+MyComputer
+3/9/2025 4:24:59 PM - System.Security.SecurityException: The source was not found, but some or all event logs could not be searched.  Inaccessible logs: Security.
+   at System.Diagnostics.EventLog.FindSourceRegistration(String source, String machineName, Boolean readOnly, Boolean wantToCreate)
+   at System.Diagnostics.EventLog.SourceExists(String source, String machineName, Boolean wantToCreate)
+   at System.Diagnostics.EventLog.SourceExists(String source)
+   at CodeGenerator_Project.Utility.clsUtil.LogError(Exception ex) in C:\Users\kheli\Desktop\Wal3a\Coding\ProgrammingAdvices\Projects\CodeGenerator_Project\Utility\clsUtil.cs:line 76
+The Zone of the assembly that failed was:
+MyComputer
+3/9/2025 4:25:00 PM - System.Security.SecurityException: The source was not found, but some or all event logs could not be searched.  Inaccessible logs: Security.
+   at System.Diagnostics.EventLog.FindSourceRegistration(String source, String machineName, Boolean readOnly, Boolean wantToCreate)
+   at System.Diagnostics.EventLog.SourceExists(String source, String machineName, Boolean wantToCreate)
+   at System.Diagnostics.EventLog.SourceExists(String source)
+   at CodeGenerator_Project.Utility.clsUtil.LogError(Exception ex) in C:\Users\kheli\Desktop\Wal3a\Coding\ProgrammingAdvices\Projects\CodeGenerator_Project\Utility\clsUtil.cs:line 76
+The Zone of the assembly that failed was:
+MyComputer
+3/9/2025 4:25:00 PM - System.Security.SecurityException: The source was not found, but some or all event logs could not be searched.  Inaccessible logs: Security.
+   at System.Diagnostics.EventLog.FindSourceRegistration(String source, String machineName, Boolean readOnly, Boolean wantToCreate)
+   at System.Diagnostics.EventLog.SourceExists(String source, String machineName, Boolean wantToCreate)
+   at System.Diagnostics.EventLog.SourceExists(String source)
+   at CodeGenerator_Project.Utility.clsUtil.LogError(Exception ex) in C:\Users\kheli\Desktop\Wal3a\Coding\ProgrammingAdvices\Projects\CodeGenerator_Project\Utility\clsUtil.cs:line 76
+The Zone of the assembly that failed was:
+MyComputer
+3/9/2025 4:25:00 PM - System.Security.SecurityException: The source was not found, but some or all event logs could not be searched.  Inaccessible logs: Security.
+   at System.Diagnostics.EventLog.FindSourceRegistration(String source, String machineName, Boolean readOnly, Boolean wantToCreate)
+   at System.Diagnostics.EventLog.SourceExists(String source, String machineName, Boolean wantToCreate)
+   at System.Diagnostics.EventLog.SourceExists(String source)
+   at CodeGenerator_Project.Utility.clsUtil.LogError(Exception ex) in C:\Users\kheli\Desktop\Wal3a\Coding\ProgrammingAdvices\Projects\CodeGenerator_Project\Utility\clsUtil.cs:line 76
+The Zone of the assembly that failed was:
+MyComputer
+3/9/2025 4:25:00 PM - System.Security.SecurityException: The source was not found, but some or all event logs could not be searched.  Inaccessible logs: Security.
+   at System.Diagnostics.EventLog.FindSourceRegistration(String source, String machineName, Boolean readOnly, Boolean wantToCreate)
+   at System.Diagnostics.EventLog.SourceExists(String source, String machineName, Boolean wantToCreate)
+   at System.Diagnostics.EventLog.SourceExists(String source)
+   at CodeGenerator_Project.Utility.clsUtil.LogError(Exception ex) in C:\Users\kheli\Desktop\Wal3a\Coding\ProgrammingAdvices\Projects\CodeGenerator_Project\Utility\clsUtil.cs:line 76
+The Zone of the assembly that failed was:
+MyComputer
+3/9/2025 4:25:00 PM - System.Security.SecurityException: The source was not found, but some or all event logs could not be searched.  Inaccessible logs: Security.
+   at System.Diagnostics.EventLog.FindSourceRegistration(String source, String machineName, Boolean readOnly, Boolean wantToCreate)
+   at System.Diagnostics.EventLog.SourceExists(String source, String machineName, Boolean wantToCreate)
+   at System.Diagnostics.EventLog.SourceExists(String source)
+   at CodeGenerator_Project.Utility.clsUtil.LogError(Exception ex) in C:\Users\kheli\Desktop\Wal3a\Coding\ProgrammingAdvices\Projects\CodeGenerator_Project\Utility\clsUtil.cs:line 76
+The Zone of the assembly that failed was:
+MyComputer
+3/9/2025 4:25:00 PM - System.Security.SecurityException: The source was not found, but some or all event logs could not be searched.  Inaccessible logs: Security.
+   at System.Diagnostics.EventLog.FindSourceRegistration(String source, String machineName, Boolean readOnly, Boolean wantToCreate)
+   at System.Diagnostics.EventLog.SourceExists(String source, String machineName, Boolean wantToCreate)
+   at System.Diagnostics.EventLog.SourceExists(String source)
+   at CodeGenerator_Project.Utility.clsUtil.LogError(Exception ex) in C:\Users\kheli\Desktop\Wal3a\Coding\ProgrammingAdvices\Projects\CodeGenerator_Project\Utility\clsUtil.cs:line 76
+The Zone of the assembly that failed was:
+MyComputer
+3/9/2025 4:25:00 PM - System.Security.SecurityException: The source was not found, but some or all event logs could not be searched.  Inaccessible logs: Security.
+   at System.Diagnostics.EventLog.FindSourceRegistration(String source, String machineName, Boolean readOnly, Boolean wantToCreate)
+   at System.Diagnostics.EventLog.SourceExists(String source, String machineName, Boolean wantToCreate)
+   at System.Diagnostics.EventLog.SourceExists(String source)
+   at CodeGenerator_Project.Utility.clsUtil.LogError(Exception ex) in C:\Users\kheli\Desktop\Wal3a\Coding\ProgrammingAdvices\Projects\CodeGenerator_Project\Utility\clsUtil.cs:line 76
+The Zone of the assembly that failed was:
+MyComputer
+3/9/2025 4:25:00 PM - System.Security.SecurityException: The source was not found, but some or all event logs could not be searched.  Inaccessible logs: Security.
+   at System.Diagnostics.EventLog.FindSourceRegistration(String source, String machineName, Boolean readOnly, Boolean wantToCreate)
+   at System.Diagnostics.EventLog.SourceExists(String source, String machineName, Boolean wantToCreate)
+   at System.Diagnostics.EventLog.SourceExists(String source)
+   at CodeGenerator_Project.Utility.clsUtil.LogError(Exception ex) in C:\Users\kheli\Desktop\Wal3a\Coding\ProgrammingAdvices\Projects\CodeGenerator_Project\Utility\clsUtil.cs:line 76
+The Zone of the assembly that failed was:
+MyComputer
+3/9/2025 4:25:01 PM - System.Security.SecurityException: The source was not found, but some or all event logs could not be searched.  Inaccessible logs: Security.
+   at System.Diagnostics.EventLog.FindSourceRegistration(String source, String machineName, Boolean readOnly, Boolean wantToCreate)
+   at System.Diagnostics.EventLog.SourceExists(String source, String machineName, Boolean wantToCreate)
+   at System.Diagnostics.EventLog.SourceExists(String source)
+   at CodeGenerator_Project.Utility.clsUtil.LogError(Exception ex) in C:\Users\kheli\Desktop\Wal3a\Coding\ProgrammingAdvices\Projects\CodeGenerator_Project\Utility\clsUtil.cs:line 76
+The Zone of the assembly that failed was:
+MyComputer
+3/9/2025 4:25:01 PM - System.Security.SecurityException: The source was not found, but some or all event logs could not be searched.  Inaccessible logs: Security.
+   at System.Diagnostics.EventLog.FindSourceRegistration(String source, String machineName, Boolean readOnly, Boolean wantToCreate)
+   at System.Diagnostics.EventLog.SourceExists(String source, String machineName, Boolean wantToCreate)
+   at System.Diagnostics.EventLog.SourceExists(String source)
+   at CodeGenerator_Project.Utility.clsUtil.LogError(Exception ex) in C:\Users\kheli\Desktop\Wal3a\Coding\ProgrammingAdvices\Projects\CodeGenerator_Project\Utility\clsUtil.cs:line 76
+The Zone of the assembly that failed was:
+MyComputer
+3/9/2025 4:25:01 PM - System.Security.SecurityException: The source was not found, but some or all event logs could not be searched.  Inaccessible logs: Security.
+   at System.Diagnostics.EventLog.FindSourceRegistration(String source, String machineName, Boolean readOnly, Boolean wantToCreate)
+   at System.Diagnostics.EventLog.SourceExists(String source, String machineName, Boolean wantToCreate)
+   at System.Diagnostics.EventLog.SourceExists(String source)
+   at CodeGenerator_Project.Utility.clsUtil.LogError(Exception ex) in C:\Users\kheli\Desktop\Wal3a\Coding\ProgrammingAdvices\Projects\CodeGenerator_Project\Utility\clsUtil.cs:line 76
+The Zone of the assembly that failed was:
+MyComputer
+3/9/2025 4:25:01 PM - System.Security.SecurityException: The source was not found, but some or all event logs could not be searched.  Inaccessible logs: Security.
+   at System.Diagnostics.EventLog.FindSourceRegistration(String source, String machineName, Boolean readOnly, Boolean wantToCreate)
+   at System.Diagnostics.EventLog.SourceExists(String source, String machineName, Boolean wantToCreate)
+   at System.Diagnostics.EventLog.SourceExists(String source)
+   at CodeGenerator_Project.Utility.clsUtil.LogError(Exception ex) in C:\Users\kheli\Desktop\Wal3a\Coding\ProgrammingAdvices\Projects\CodeGenerator_Project\Utility\clsUtil.cs:line 76
+The Zone of the assembly that failed was:
+MyComputer
+3/9/2025 4:25:01 PM - System.Security.SecurityException: The source was not found, but some or all event logs could not be searched.  Inaccessible logs: Security.
+   at System.Diagnostics.EventLog.FindSourceRegistration(String source, String machineName, Boolean readOnly, Boolean wantToCreate)
+   at System.Diagnostics.EventLog.SourceExists(String source, String machineName, Boolean wantToCreate)
+   at System.Diagnostics.EventLog.SourceExists(String source)
+   at CodeGenerator_Project.Utility.clsUtil.LogError(Exception ex) in C:\Users\kheli\Desktop\Wal3a\Coding\ProgrammingAdvices\Projects\CodeGenerator_Project\Utility\clsUtil.cs:line 76
+The Zone of the assembly that failed was:
+MyComputer
+3/9/2025 4:25:01 PM - System.Security.SecurityException: The source was not found, but some or all event logs could not be searched.  Inaccessible logs: Security.
+   at System.Diagnostics.EventLog.FindSourceRegistration(String source, String machineName, Boolean readOnly, Boolean wantToCreate)
+   at System.Diagnostics.EventLog.SourceExists(String source, String machineName, Boolean wantToCreate)
+   at System.Diagnostics.EventLog.SourceExists(String source)
+   at CodeGenerator_Project.Utility.clsUtil.LogError(Exception ex) in C:\Users\kheli\Desktop\Wal3a\Coding\ProgrammingAdvices\Projects\CodeGenerator_Project\Utility\clsUtil.cs:line 76
+The Zone of the assembly that failed was:
+MyComputer
+3/9/2025 4:25:01 PM - System.Security.SecurityException: The source was not found, but some or all event logs could not be searched.  Inaccessible logs: Security.
+   at System.Diagnostics.EventLog.FindSourceRegistration(String source, String machineName, Boolean readOnly, Boolean wantToCreate)
+   at System.Diagnostics.EventLog.SourceExists(String source, String machineName, Boolean wantToCreate)
+   at System.Diagnostics.EventLog.SourceExists(String source)
+   at CodeGenerator_Project.Utility.clsUtil.LogError(Exception ex) in C:\Users\kheli\Desktop\Wal3a\Coding\ProgrammingAdvices\Projects\CodeGenerator_Project\Utility\clsUtil.cs:line 76
+The Zone of the assembly that failed was:
+MyComputer
+3/9/2025 9:46:37 PM - System.Security.SecurityException: The source was not found, but some or all event logs could not be searched.  Inaccessible logs: Security.
+   at System.Diagnostics.EventLog.FindSourceRegistration(String source, String machineName, Boolean readOnly, Boolean wantToCreate)
+   at System.Diagnostics.EventLog.SourceExists(String source, String machineName, Boolean wantToCreate)
+   at System.Diagnostics.EventLog.SourceExists(String source)
+   at CodeGenerator_Project.Utility.clsUtil.LogError(Exception ex) in C:\Users\kheli\Desktop\Wal3a\Coding\ProgrammingAdvices\Projects\CodeGenerator_Project\Utility\clsUtil.cs:line 76
+The Zone of the assembly that failed was:
+MyComputer
+3/9/2025 9:46:43 PM - System.Security.SecurityException: The source was not found, but some or all event logs could not be searched.  Inaccessible logs: Security.
+   at System.Diagnostics.EventLog.FindSourceRegistration(String source, String machineName, Boolean readOnly, Boolean wantToCreate)
+   at System.Diagnostics.EventLog.SourceExists(String source, String machineName, Boolean wantToCreate)
+   at System.Diagnostics.EventLog.SourceExists(String source)
+   at CodeGenerator_Project.Utility.clsUtil.LogError(Exception ex) in C:\Users\kheli\Desktop\Wal3a\Coding\ProgrammingAdvices\Projects\CodeGenerator_Project\Utility\clsUtil.cs:line 76
+The Zone of the assembly that failed was:
+MyComputer
+3/9/2025 9:46:47 PM - System.Security.SecurityException: The source was not found, but some or all event logs could not be searched.  Inaccessible logs: Security.
+   at System.Diagnostics.EventLog.FindSourceRegistration(String source, String machineName, Boolean readOnly, Boolean wantToCreate)
+   at System.Diagnostics.EventLog.SourceExists(String source, String machineName, Boolean wantToCreate)
+   at System.Diagnostics.EventLog.SourceExists(String source)
+   at CodeGenerator_Project.Utility.clsUtil.LogError(Exception ex) in C:\Users\kheli\Desktop\Wal3a\Coding\ProgrammingAdvices\Projects\CodeGenerator_Project\Utility\clsUtil.cs:line 76
+The Zone of the assembly that failed was:
+MyComputer
+3/9/2025 9:48:58 PM - System.Security.SecurityException: The source was not found, but some or all event logs could not be searched.  Inaccessible logs: Security.
+   at System.Diagnostics.EventLog.FindSourceRegistration(String source, String machineName, Boolean readOnly, Boolean wantToCreate)
+   at System.Diagnostics.EventLog.SourceExists(String source, String machineName, Boolean wantToCreate)
+   at System.Diagnostics.EventLog.SourceExists(String source)
+   at CodeGenerator_Project.Utility.clsUtil.LogError(Exception ex) in C:\Users\kheli\Desktop\Wal3a\Coding\ProgrammingAdvices\Projects\CodeGenerator_Project\Utility\clsUtil.cs:line 76
+The Zone of the assembly that failed was:
+MyComputer
+3/9/2025 9:49:02 PM - System.Security.SecurityException: The source was not found, but some or all event logs could not be searched.  Inaccessible logs: Security.
+   at System.Diagnostics.EventLog.FindSourceRegistration(String source, String machineName, Boolean readOnly, Boolean wantToCreate)
+   at System.Diagnostics.EventLog.SourceExists(String source, String machineName, Boolean wantToCreate)
+   at System.Diagnostics.EventLog.SourceExists(String source)
+   at CodeGenerator_Project.Utility.clsUtil.LogError(Exception ex) in C:\Users\kheli\Desktop\Wal3a\Coding\ProgrammingAdvices\Projects\CodeGenerator_Project\Utility\clsUtil.cs:line 76
+The Zone of the assembly that failed was:
+MyComputer
+3/9/2025 9:49:03 PM - System.Security.SecurityException: The source was not found, but some or all event logs could not be searched.  Inaccessible logs: Security.
+   at System.Diagnostics.EventLog.FindSourceRegistration(String source, String machineName, Boolean readOnly, Boolean wantToCreate)
+   at System.Diagnostics.EventLog.SourceExists(String source, String machineName, Boolean wantToCreate)
+   at System.Diagnostics.EventLog.SourceExists(String source)
+   at CodeGenerator_Project.Utility.clsUtil.LogError(Exception ex) in C:\Users\kheli\Desktop\Wal3a\Coding\ProgrammingAdvices\Projects\CodeGenerator_Project\Utility\clsUtil.cs:line 76
+The Zone of the assembly that failed was:
+MyComputer
+3/9/2025 9:50:50 PM - System.Security.SecurityException: The source was not found, but some or all event logs could not be searched.  Inaccessible logs: Security.
+   at System.Diagnostics.EventLog.FindSourceRegistration(String source, String machineName, Boolean readOnly, Boolean wantToCreate)
+   at System.Diagnostics.EventLog.SourceExists(String source, String machineName, Boolean wantToCreate)
+   at System.Diagnostics.EventLog.SourceExists(String source)
+   at CodeGenerator_Project.Utility.clsUtil.LogError(Exception ex) in C:\Users\kheli\Desktop\Wal3a\Coding\ProgrammingAdvices\Projects\CodeGenerator_Project\Utility\clsUtil.cs:line 76
+The Zone of the assembly that failed was:
+MyComputer
+3/9/2025 9:51:43 PM - System.Security.SecurityException: The source was not found, but some or all event logs could not be searched.  Inaccessible logs: Security.
+   at System.Diagnostics.EventLog.FindSourceRegistration(String source, String machineName, Boolean readOnly, Boolean wantToCreate)
+   at System.Diagnostics.EventLog.SourceExists(String source, String machineName, Boolean wantToCreate)
+   at System.Diagnostics.EventLog.SourceExists(String source)
+   at CodeGenerator_Project.Utility.clsUtil.LogError(Exception ex) in C:\Users\kheli\Desktop\Wal3a\Coding\ProgrammingAdvices\Projects\CodeGenerator_Project\Utility\clsUtil.cs:line 76
+The Zone of the assembly that failed was:
+MyComputer
+3/9/2025 9:51:44 PM - System.Security.SecurityException: The source was not found, but some or all event logs could not be searched.  Inaccessible logs: Security.
+   at System.Diagnostics.EventLog.FindSourceRegistration(String source, String machineName, Boolean readOnly, Boolean wantToCreate)
+   at System.Diagnostics.EventLog.SourceExists(String source, String machineName, Boolean wantToCreate)
+   at System.Diagnostics.EventLog.SourceExists(String source)
+   at CodeGenerator_Project.Utility.clsUtil.LogError(Exception ex) in C:\Users\kheli\Desktop\Wal3a\Coding\ProgrammingAdvices\Projects\CodeGenerator_Project\Utility\clsUtil.cs:line 76
+The Zone of the assembly that failed was:
+MyComputer
+3/9/2025 9:51:45 PM - System.Security.SecurityException: The source was not found, but some or all event logs could not be searched.  Inaccessible logs: Security.
+   at System.Diagnostics.EventLog.FindSourceRegistration(String source, String machineName, Boolean readOnly, Boolean wantToCreate)
+   at System.Diagnostics.EventLog.SourceExists(String source, String machineName, Boolean wantToCreate)
+   at System.Diagnostics.EventLog.SourceExists(String source)
+   at CodeGenerator_Project.Utility.clsUtil.LogError(Exception ex) in C:\Users\kheli\Desktop\Wal3a\Coding\ProgrammingAdvices\Projects\CodeGenerator_Project\Utility\clsUtil.cs:line 76
+The Zone of the assembly that failed was:
+MyComputer
+3/11/2025 4:31:02 PM - System.Security.SecurityException: The source was not found, but some or all event logs could not be searched.  Inaccessible logs: Security.
+   at System.Diagnostics.EventLog.FindSourceRegistration(String source, String machineName, Boolean readOnly, Boolean wantToCreate)
+   at System.Diagnostics.EventLog.SourceExists(String source, String machineName, Boolean wantToCreate)
+   at System.Diagnostics.EventLog.SourceExists(String source)
+   at CodeGenerator_Project.Utility.clsUtil.LogError(Exception ex) in C:\Users\kheli\Desktop\Wal3a\Coding\ProgrammingAdvices\Projects\CodeGenerator_Project\Utility\clsUtil.cs:line 76
+The Zone of the assembly that failed was:
+MyComputer
+3/11/2025 4:31:02 PM - System.Security.SecurityException: The source was not found, but some or all event logs could not be searched.  Inaccessible logs: Security.
+   at System.Diagnostics.EventLog.FindSourceRegistration(String source, String machineName, Boolean readOnly, Boolean wantToCreate)
+   at System.Diagnostics.EventLog.SourceExists(String source, String machineName, Boolean wantToCreate)
+   at System.Diagnostics.EventLog.SourceExists(String source)
+   at CodeGenerator_Project.Utility.clsUtil.LogError(Exception ex) in C:\Users\kheli\Desktop\Wal3a\Coding\ProgrammingAdvices\Projects\CodeGenerator_Project\Utility\clsUtil.cs:line 76
+The Zone of the assembly that failed was:
+MyComputer
+3/11/2025 4:33:48 PM - System.Security.SecurityException: The source was not found, but some or all event logs could not be searched.  Inaccessible logs: Security.
+   at System.Diagnostics.EventLog.FindSourceRegistration(String source, String machineName, Boolean readOnly, Boolean wantToCreate)
+   at System.Diagnostics.EventLog.SourceExists(String source, String machineName, Boolean wantToCreate)
+   at System.Diagnostics.EventLog.SourceExists(String source)
+   at CodeGenerator_Project.Utility.clsUtil.LogError(Exception ex) in C:\Users\kheli\Desktop\Wal3a\Coding\ProgrammingAdvices\Projects\CodeGenerator_Project\Utility\clsUtil.cs:line 76
+The Zone of the assembly that failed was:
+MyComputer
+3/11/2025 4:33:48 PM - System.Security.SecurityException: The source was not found, but some or all event logs could not be searched.  Inaccessible logs: Security.
+   at System.Diagnostics.EventLog.FindSourceRegistration(String source, String machineName, Boolean readOnly, Boolean wantToCreate)
+   at System.Diagnostics.EventLog.SourceExists(String source, String machineName, Boolean wantToCreate)
+   at System.Diagnostics.EventLog.SourceExists(String source)
+   at CodeGenerator_Project.Utility.clsUtil.LogError(Exception ex) in C:\Users\kheli\Desktop\Wal3a\Coding\ProgrammingAdvices\Projects\CodeGenerator_Project\Utility\clsUtil.cs:line 76
+The Zone of the assembly that failed was:
+MyComputer
+[3/11/2025 4:35:13 PM] Could not find a part of the path 'C:\Users\kheli\Desktop\XX\CarDatabaseBusinessLayer\Fuels.cs'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.File.InternalWriteAllText(String path, String contents, Encoding encoding, Boolean checkHost)
+   at System.IO.File.WriteAllText(String path, String contents)
+   at CodeGenerator_Project.Utility.clsUtil.SaveToFile(String content, String path) in C:\Users\kheli\Desktop\Wal3a\Coding\ProgrammingAdvices\Projects\CodeGenerator_Project\Utility\clsUtil.cs:line 185
+   at CodeGenerator_Project.Forms.frmGenerate.<>c__DisplayClass7_1.<<btnConnect_Click>b__0>d.MoveNext() in C:\Users\kheli\Desktop\Wal3a\Coding\ProgrammingAdvices\Projects\CodeGenerator_Project\Forms\frmGenerate.cs:line 92
+
+
+92
+
+
+[3/11/2025 4:35:13 PM] Could not find a part of the path 'C:\Users\kheli\Desktop\XX\CarDatabaseBusinessLayer\Makes.cs'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.File.InternalWriteAllText(String path, String contents, Encoding encoding, Boolean checkHost)
+   at System.IO.File.WriteAllText(String path, String contents)
+   at CodeGenerator_Project.Utility.clsUtil.SaveToFile(String content, String path) in C:\Users\kheli\Desktop\Wal3a\Coding\ProgrammingAdvices\Projects\CodeGenerator_Project\Utility\clsUtil.cs:line 185
+   at CodeGenerator_Project.Forms.frmGenerate.<>c__DisplayClass7_1.<<btnConnect_Click>b__0>d.MoveNext() in C:\Users\kheli\Desktop\Wal3a\Coding\ProgrammingAdvices\Projects\CodeGenerator_Project\Forms\frmGenerate.cs:line 92
+
+
+[3/11/2025 5:23:57 PM] Could not find a part of the path 'C:\Users\kheli\Desktop\XX\CarDatabaseBusinessLayer\Fuels.cs'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at CodeGenerator_Project.Utility.clsUtil.SaveToFile(String content, String filePath) in C:\Users\kheli\Desktop\Wal3a\Coding\ProgrammingAdvices\Projects\CodeGenerator_Project\Utility\clsUtil.cs:line 187
+
+
+[3/11/2025 5:23:57 PM] Could not find a part of the path 'C:\Users\kheli\Desktop\XX\CarDatabaseBusinessLayer\CarsDetails.cs'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at CodeGenerator_Project.Utility.clsUtil.SaveToFile(String content, String filePath) in C:\Users\kheli\Desktop\Wal3a\Coding\ProgrammingAdvices\Projects\CodeGenerator_Project\Utility\clsUtil.cs:line 187
+
+
+[3/11/2025 5:23:57 PM] Could not find a part of the path 'C:\Users\kheli\Desktop\XX\CarDatabaseDataLayer\FuelsData.cs'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at CodeGenerator_Project.Utility.clsUtil.SaveToFile(String content, String filePath) in C:\Users\kheli\Desktop\Wal3a\Coding\ProgrammingAdvices\Projects\CodeGenerator_Project\Utility\clsUtil.cs:line 187
+
+
+[3/11/2025 5:23:57 PM] Could not find a part of the path 'C:\Users\kheli\Desktop\XX\CarDatabaseDataLayer\CarsDetailsData.cs'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at CodeGenerator_Project.Utility.clsUtil.SaveToFile(String content, String filePath) in C:\Users\kheli\Desktop\Wal3a\Coding\ProgrammingAdvices\Projects\CodeGenerator_Project\Utility\clsUtil.cs:line 187
+
+
+[3/11/2025 5:23:57 PM] Could not find a part of the path 'C:\Users\kheli\Desktop\XX\CarDatabaseBusinessLayer\Makes.cs'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at CodeGenerator_Project.Utility.clsUtil.SaveToFile(String content, String filePath) in C:\Users\kheli\Desktop\Wal3a\Coding\ProgrammingAdvices\Projects\CodeGenerator_Project\Utility\clsUtil.cs:line 187
+
+
+[3/11/2025 5:23:57 PM] Could not find a part of the path 'C:\Users\kheli\Desktop\XX\CarDatabaseDataLayer\MakesData.cs'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at CodeGenerator_Project.Utility.clsUtil.SaveToFile(String content, String filePath) in C:\Users\kheli\Desktop\Wal3a\Coding\ProgrammingAdvices\Projects\CodeGenerator_Project\Utility\clsUtil.cs:line 187
+
+
+[3/11/2025 5:23:57 PM] Could not find a part of the path 'C:\Users\kheli\Desktop\XX\CarDatabaseDataLayer\clsDataAccessUtil.cs'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at CodeGenerator_Project.Utility.clsUtil.SaveToFile(String content, String filePath) in C:\Users\kheli\Desktop\Wal3a\Coding\ProgrammingAdvices\Projects\CodeGenerator_Project\Utility\clsUtil.cs:line 187
+
+
+[3/11/2025 5:24:35 PM] Could not find a part of the path 'C:\Users\kheli\Desktop\XX\CarDatabaseBusinessLayer\Makes.cs'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at CodeGenerator_Project.Utility.clsUtil.SaveToFile(String content, String filePath) in C:\Users\kheli\Desktop\Wal3a\Coding\ProgrammingAdvices\Projects\CodeGenerator_Project\Utility\clsUtil.cs:line 187
+
+
+[3/11/2025 5:24:36 PM] Could not find a part of the path 'C:\Users\kheli\Desktop\XX\CarDatabaseBusinessLayer\CarsDetails.cs'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at CodeGenerator_Project.Utility.clsUtil.SaveToFile(String content, String filePath) in C:\Users\kheli\Desktop\Wal3a\Coding\ProgrammingAdvices\Projects\CodeGenerator_Project\Utility\clsUtil.cs:line 187
+
+
+[3/11/2025 5:24:36 PM] Could not find a part of the path 'C:\Users\kheli\Desktop\XX\CarDatabaseDataLayer\MakesData.cs'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at CodeGenerator_Project.Utility.clsUtil.SaveToFile(String content, String filePath) in C:\Users\kheli\Desktop\Wal3a\Coding\ProgrammingAdvices\Projects\CodeGenerator_Project\Utility\clsUtil.cs:line 187
+
+
+[3/11/2025 5:24:36 PM] Could not find a part of the path 'C:\Users\kheli\Desktop\XX\CarDatabaseDataLayer\CarsDetailsData.cs'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at CodeGenerator_Project.Utility.clsUtil.SaveToFile(String content, String filePath) in C:\Users\kheli\Desktop\Wal3a\Coding\ProgrammingAdvices\Projects\CodeGenerator_Project\Utility\clsUtil.cs:line 187
+
+
+[3/11/2025 5:24:36 PM] Could not find a part of the path 'C:\Users\kheli\Desktop\XX\CarDatabaseBusinessLayer\Fuels.cs'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at CodeGenerator_Project.Utility.clsUtil.SaveToFile(String content, String filePath) in C:\Users\kheli\Desktop\Wal3a\Coding\ProgrammingAdvices\Projects\CodeGenerator_Project\Utility\clsUtil.cs:line 187
+
+
+[3/11/2025 5:24:36 PM] Could not find a part of the path 'C:\Users\kheli\Desktop\XX\CarDatabaseDataLayer\FuelsData.cs'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at CodeGenerator_Project.Utility.clsUtil.SaveToFile(String content, String filePath) in C:\Users\kheli\Desktop\Wal3a\Coding\ProgrammingAdvices\Projects\CodeGenerator_Project\Utility\clsUtil.cs:line 187
+
+
+[3/11/2025 5:24:36 PM] Could not find a part of the path 'C:\Users\kheli\Desktop\XX\CarDatabaseDataLayer\clsDataAccessUtil.cs'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at CodeGenerator_Project.Utility.clsUtil.SaveToFile(String content, String filePath) in C:\Users\kheli\Desktop\Wal3a\Coding\ProgrammingAdvices\Projects\CodeGenerator_Project\Utility\clsUtil.cs:line 187
+
+
+[3/11/2025 5:28:58 PM] Could not find a part of the path 'C:\Users\kheli\Desktop\XX\CarDatabaseBusinessLayer\CarsDetails.cs'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at CodeGenerator_Project.Utility.clsUtil.SaveToFile(String content, String filePath) in C:\Users\kheli\Desktop\Wal3a\Coding\ProgrammingAdvices\Projects\CodeGenerator_Project\Utility\clsUtil.cs:line 187
+
+
+[3/11/2025 5:28:58 PM] Could not find a part of the path 'C:\Users\kheli\Desktop\XX\CarDatabaseDataLayer\FuelsData.cs'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at CodeGenerator_Project.Utility.clsUtil.SaveToFile(String content, String filePath) in C:\Users\kheli\Desktop\Wal3a\Coding\ProgrammingAdvices\Projects\CodeGenerator_Project\Utility\clsUtil.cs:line 187
+
+
+[3/11/2025 5:28:58 PM] Could not find a part of the path 'C:\Users\kheli\Desktop\XX\CarDatabaseDataLayer\MakesData.cs'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at CodeGenerator_Project.Utility.clsUtil.SaveToFile(String content, String filePath) in C:\Users\kheli\Desktop\Wal3a\Coding\ProgrammingAdvices\Projects\CodeGenerator_Project\Utility\clsUtil.cs:line 187
+
+
+[3/11/2025 5:28:58 PM] Could not find a part of the path 'C:\Users\kheli\Desktop\XX\CarDatabaseDataLayer\CarsDetailsData.cs'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at CodeGenerator_Project.Utility.clsUtil.SaveToFile(String content, String filePath) in C:\Users\kheli\Desktop\Wal3a\Coding\ProgrammingAdvices\Projects\CodeGenerator_Project\Utility\clsUtil.cs:line 187
+
+
+[3/11/2025 5:28:58 PM] Could not find a part of the path 'C:\Users\kheli\Desktop\XX\CarDatabaseDataLayer\clsDataAccessUtil.cs'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at CodeGenerator_Project.Utility.clsUtil.SaveToFile(String content, String filePath) in C:\Users\kheli\Desktop\Wal3a\Coding\ProgrammingAdvices\Projects\CodeGenerator_Project\Utility\clsUtil.cs:line 187
+
+
+[3/12/2025 8:31:57 PM] A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 25 - Connection string is not valid)
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling, SqlAuthenticationProviderManager sqlAuthProviderManager)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at CodeGenerator_Project.Connection.clsConnection.<Connect>d__4.MoveNext() in C:\Users\kheli\Desktop\Wal3a\Coding\ProgrammingAdvices\Projects\CodeGenerator_Project\Connection\clsConnection.cs:line 25
+
+
+[3/12/2025 8:38:01 PM] Incorrect syntax near '@db'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.CompleteAsyncExecuteReader(Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.InternalEndExecuteReader(IAsyncResult asyncResult, String endMethod, Boolean isInternal)
+   at System.Data.SqlClient.SqlCommand.EndExecuteReaderInternal(IAsyncResult asyncResult)
+   at System.Data.SqlClient.SqlCommand.EndExecuteReaderAsync(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at CodeGenerator_Project.Connection.clsConnection.<GetTableColumns>d__7.MoveNext() in C:\Users\kheli\Desktop\Wal3a\Coding\ProgrammingAdvices\Projects\CodeGenerator_Project\Connection\clsConnection.cs:line 115
+
+
+[3/12/2025 8:38:01 PM] Incorrect syntax near '@db'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.CompleteAsyncExecuteReader(Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.InternalEndExecuteReader(IAsyncResult asyncResult, String endMethod, Boolean isInternal)
+   at System.Data.SqlClient.SqlCommand.EndExecuteReaderInternal(IAsyncResult asyncResult)
+   at System.Data.SqlClient.SqlCommand.EndExecuteReaderAsync(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at CodeGenerator_Project.Connection.clsConnection.<GetTableColumns>d__7.MoveNext() in C:\Users\kheli\Desktop\Wal3a\Coding\ProgrammingAdvices\Projects\CodeGenerator_Project\Connection\clsConnection.cs:line 115
+
+
+[3/12/2025 8:38:01 PM] Incorrect syntax near '@db'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.CompleteAsyncExecuteReader(Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.InternalEndExecuteReader(IAsyncResult asyncResult, String endMethod, Boolean isInternal)
+   at System.Data.SqlClient.SqlCommand.EndExecuteReaderInternal(IAsyncResult asyncResult)
+   at System.Data.SqlClient.SqlCommand.EndExecuteReaderAsync(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at CodeGenerator_Project.Connection.clsConnection.<GetTableColumns>d__7.MoveNext() in C:\Users\kheli\Desktop\Wal3a\Coding\ProgrammingAdvices\Projects\CodeGenerator_Project\Connection\clsConnection.cs:line 115
+
+
+[3/12/2025 8:38:01 PM] Incorrect syntax near '@db'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.CompleteAsyncExecuteReader(Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.InternalEndExecuteReader(IAsyncResult asyncResult, String endMethod, Boolean isInternal)
+   at System.Data.SqlClient.SqlCommand.EndExecuteReaderInternal(IAsyncResult asyncResult)
+   at System.Data.SqlClient.SqlCommand.EndExecuteReaderAsync(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at CodeGenerator_Project.Connection.clsConnection.<GetTableColumns>d__7.MoveNext() in C:\Users\kheli\Desktop\Wal3a\Coding\ProgrammingAdvices\Projects\CodeGenerator_Project\Connection\clsConnection.cs:line 115
+
+
+[3/12/2025 8:38:01 PM] Incorrect syntax near '@db'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.CompleteAsyncExecuteReader(Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.InternalEndExecuteReader(IAsyncResult asyncResult, String endMethod, Boolean isInternal)
+   at System.Data.SqlClient.SqlCommand.EndExecuteReaderInternal(IAsyncResult asyncResult)
+   at System.Data.SqlClient.SqlCommand.EndExecuteReaderAsync(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at CodeGenerator_Project.Connection.clsConnection.<GetTableColumns>d__7.MoveNext() in C:\Users\kheli\Desktop\Wal3a\Coding\ProgrammingAdvices\Projects\CodeGenerator_Project\Connection\clsConnection.cs:line 115
+
+
+[3/12/2025 8:38:01 PM] Incorrect syntax near '@db'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.CompleteAsyncExecuteReader(Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.InternalEndExecuteReader(IAsyncResult asyncResult, String endMethod, Boolean isInternal)
+   at System.Data.SqlClient.SqlCommand.EndExecuteReaderInternal(IAsyncResult asyncResult)
+   at System.Data.SqlClient.SqlCommand.EndExecuteReaderAsync(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at CodeGenerator_Project.Connection.clsConnection.<GetTableColumns>d__7.MoveNext() in C:\Users\kheli\Desktop\Wal3a\Coding\ProgrammingAdvices\Projects\CodeGenerator_Project\Connection\clsConnection.cs:line 115
+
+
+[3/12/2025 8:38:01 PM] Incorrect syntax near '@db'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.CompleteAsyncExecuteReader(Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.InternalEndExecuteReader(IAsyncResult asyncResult, String endMethod, Boolean isInternal)
+   at System.Data.SqlClient.SqlCommand.EndExecuteReaderInternal(IAsyncResult asyncResult)
+   at System.Data.SqlClient.SqlCommand.EndExecuteReaderAsync(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at CodeGenerator_Project.Connection.clsConnection.<GetTableColumns>d__7.MoveNext() in C:\Users\kheli\Desktop\Wal3a\Coding\ProgrammingAdvices\Projects\CodeGenerator_Project\Connection\clsConnection.cs:line 115
+
+
+[3/12/2025 8:38:01 PM] Incorrect syntax near '@db'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.CompleteAsyncExecuteReader(Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.InternalEndExecuteReader(IAsyncResult asyncResult, String endMethod, Boolean isInternal)
+   at System.Data.SqlClient.SqlCommand.EndExecuteReaderInternal(IAsyncResult asyncResult)
+   at System.Data.SqlClient.SqlCommand.EndExecuteReaderAsync(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at CodeGenerator_Project.Connection.clsConnection.<GetTableColumns>d__7.MoveNext() in C:\Users\kheli\Desktop\Wal3a\Coding\ProgrammingAdvices\Projects\CodeGenerator_Project\Connection\clsConnection.cs:line 115
+
+
+[3/12/2025 8:38:01 PM] Incorrect syntax near '@db'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.CompleteAsyncExecuteReader(Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.InternalEndExecuteReader(IAsyncResult asyncResult, String endMethod, Boolean isInternal)
+   at System.Data.SqlClient.SqlCommand.EndExecuteReaderInternal(IAsyncResult asyncResult)
+   at System.Data.SqlClient.SqlCommand.EndExecuteReaderAsync(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at CodeGenerator_Project.Connection.clsConnection.<GetTableColumns>d__7.MoveNext() in C:\Users\kheli\Desktop\Wal3a\Coding\ProgrammingAdvices\Projects\CodeGenerator_Project\Connection\clsConnection.cs:line 115
+
+
+[3/12/2025 8:38:01 PM] Incorrect syntax near '@db'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.CompleteAsyncExecuteReader(Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.InternalEndExecuteReader(IAsyncResult asyncResult, String endMethod, Boolean isInternal)
+   at System.Data.SqlClient.SqlCommand.EndExecuteReaderInternal(IAsyncResult asyncResult)
+   at System.Data.SqlClient.SqlCommand.EndExecuteReaderAsync(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at CodeGenerator_Project.Connection.clsConnection.<GetTableColumns>d__7.MoveNext() in C:\Users\kheli\Desktop\Wal3a\Coding\ProgrammingAdvices\Projects\CodeGenerator_Project\Connection\clsConnection.cs:line 115
+
+
+[3/12/2025 8:38:01 PM] Incorrect syntax near '@db'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.CompleteAsyncExecuteReader(Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.InternalEndExecuteReader(IAsyncResult asyncResult, String endMethod, Boolean isInternal)
+   at System.Data.SqlClient.SqlCommand.EndExecuteReaderInternal(IAsyncResult asyncResult)
+   at System.Data.SqlClient.SqlCommand.EndExecuteReaderAsync(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at CodeGenerator_Project.Connection.clsConnection.<GetTableColumns>d__7.MoveNext() in C:\Users\kheli\Desktop\Wal3a\Coding\ProgrammingAdvices\Projects\CodeGenerator_Project\Connection\clsConnection.cs:line 115
+
+
+[3/12/2025 8:38:01 PM] Incorrect syntax near '@db'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.CompleteAsyncExecuteReader(Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.InternalEndExecuteReader(IAsyncResult asyncResult, String endMethod, Boolean isInternal)
+   at System.Data.SqlClient.SqlCommand.EndExecuteReaderInternal(IAsyncResult asyncResult)
+   at System.Data.SqlClient.SqlCommand.EndExecuteReaderAsync(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at CodeGenerator_Project.Connection.clsConnection.<GetTableColumns>d__7.MoveNext() in C:\Users\kheli\Desktop\Wal3a\Coding\ProgrammingAdvices\Projects\CodeGenerator_Project\Connection\clsConnection.cs:line 115
+
+
+[3/12/2025 8:38:01 PM] Incorrect syntax near '@db'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.CompleteAsyncExecuteReader(Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.InternalEndExecuteReader(IAsyncResult asyncResult, String endMethod, Boolean isInternal)
+   at System.Data.SqlClient.SqlCommand.EndExecuteReaderInternal(IAsyncResult asyncResult)
+   at System.Data.SqlClient.SqlCommand.EndExecuteReaderAsync(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at CodeGenerator_Project.Connection.clsConnection.<GetTableColumns>d__7.MoveNext() in C:\Users\kheli\Desktop\Wal3a\Coding\ProgrammingAdvices\Projects\CodeGenerator_Project\Connection\clsConnection.cs:line 115
+
+
+[3/12/2025 8:38:01 PM] Incorrect syntax near '@db'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.CompleteAsyncExecuteReader(Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.InternalEndExecuteReader(IAsyncResult asyncResult, String endMethod, Boolean isInternal)
+   at System.Data.SqlClient.SqlCommand.EndExecuteReaderInternal(IAsyncResult asyncResult)
+   at System.Data.SqlClient.SqlCommand.EndExecuteReaderAsync(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at CodeGenerator_Project.Connection.clsConnection.<GetTableColumns>d__7.MoveNext() in C:\Users\kheli\Desktop\Wal3a\Coding\ProgrammingAdvices\Projects\CodeGenerator_Project\Connection\clsConnection.cs:line 115
+
+
+[3/12/2025 8:39:51 PM] Incorrect syntax near '@db'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.CompleteAsyncExecuteReader(Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.InternalEndExecuteReader(IAsyncResult asyncResult, String endMethod, Boolean isInternal)
+   at System.Data.SqlClient.SqlCommand.EndExecuteReaderInternal(IAsyncResult asyncResult)
+   at System.Data.SqlClient.SqlCommand.EndExecuteReaderAsync(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at CodeGenerator_Project.Connection.clsConnection.<GetTableColumns>d__7.MoveNext() in C:\Users\kheli\Desktop\Wal3a\Coding\ProgrammingAdvices\Projects\CodeGenerator_Project\Connection\clsConnection.cs:line 115
+
+
+[3/12/2025 8:39:53 PM] Incorrect syntax near '@db'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.CompleteAsyncExecuteReader(Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.InternalEndExecuteReader(IAsyncResult asyncResult, String endMethod, Boolean isInternal)
+   at System.Data.SqlClient.SqlCommand.EndExecuteReaderInternal(IAsyncResult asyncResult)
+   at System.Data.SqlClient.SqlCommand.EndExecuteReaderAsync(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at CodeGenerator_Project.Connection.clsConnection.<GetTableColumns>d__7.MoveNext() in C:\Users\kheli\Desktop\Wal3a\Coding\ProgrammingAdvices\Projects\CodeGenerator_Project\Connection\clsConnection.cs:line 115
+
+
+[3/12/2025 8:50:38 PM] Incorrect syntax near '@db'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.CompleteAsyncExecuteReader(Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.InternalEndExecuteReader(IAsyncResult asyncResult, String endMethod, Boolean isInternal)
+   at System.Data.SqlClient.SqlCommand.EndExecuteReaderInternal(IAsyncResult asyncResult)
+   at System.Data.SqlClient.SqlCommand.EndExecuteReaderAsync(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at CodeGenerator_Project.Connection.clsConnection.<GetTableColumns>d__7.MoveNext() in C:\Users\kheli\Desktop\Wal3a\Coding\ProgrammingAdvices\Projects\CodeGenerator_Project\Connection\clsConnection.cs:line 116
+
+
+[3/12/2025 8:50:38 PM] Incorrect syntax near '@db'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.CompleteAsyncExecuteReader(Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.InternalEndExecuteReader(IAsyncResult asyncResult, String endMethod, Boolean isInternal)
+   at System.Data.SqlClient.SqlCommand.EndExecuteReaderInternal(IAsyncResult asyncResult)
+   at System.Data.SqlClient.SqlCommand.EndExecuteReaderAsync(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at CodeGenerator_Project.Connection.clsConnection.<GetTableColumns>d__7.MoveNext() in C:\Users\kheli\Desktop\Wal3a\Coding\ProgrammingAdvices\Projects\CodeGenerator_Project\Connection\clsConnection.cs:line 116
+
+
+[3/12/2025 8:50:38 PM] Incorrect syntax near '@db'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.CompleteAsyncExecuteReader(Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.InternalEndExecuteReader(IAsyncResult asyncResult, String endMethod, Boolean isInternal)
+   at System.Data.SqlClient.SqlCommand.EndExecuteReaderInternal(IAsyncResult asyncResult)
+   at System.Data.SqlClient.SqlCommand.EndExecuteReaderAsync(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at CodeGenerator_Project.Connection.clsConnection.<GetTableColumns>d__7.MoveNext() in C:\Users\kheli\Desktop\Wal3a\Coding\ProgrammingAdvices\Projects\CodeGenerator_Project\Connection\clsConnection.cs:line 116
+
+
+[3/12/2025 8:50:44 PM] Incorrect syntax near '@db'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.CompleteAsyncExecuteReader(Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.InternalEndExecuteReader(IAsyncResult asyncResult, String endMethod, Boolean isInternal)
+   at System.Data.SqlClient.SqlCommand.EndExecuteReaderInternal(IAsyncResult asyncResult)
+   at System.Data.SqlClient.SqlCommand.EndExecuteReaderAsync(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at CodeGenerator_Project.Connection.clsConnection.<GetTableColumns>d__7.MoveNext() in C:\Users\kheli\Desktop\Wal3a\Coding\ProgrammingAdvices\Projects\CodeGenerator_Project\Connection\clsConnection.cs:line 116
+
+
+[3/12/2025 8:50:44 PM] Incorrect syntax near '@db'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.CompleteAsyncExecuteReader(Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.InternalEndExecuteReader(IAsyncResult asyncResult, String endMethod, Boolean isInternal)
+   at System.Data.SqlClient.SqlCommand.EndExecuteReaderInternal(IAsyncResult asyncResult)
+   at System.Data.SqlClient.SqlCommand.EndExecuteReaderAsync(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at CodeGenerator_Project.Connection.clsConnection.<GetTableColumns>d__7.MoveNext() in C:\Users\kheli\Desktop\Wal3a\Coding\ProgrammingAdvices\Projects\CodeGenerator_Project\Connection\clsConnection.cs:line 116
+
+
+[3/12/2025 8:50:44 PM] Incorrect syntax near '@db'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.CompleteAsyncExecuteReader(Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.InternalEndExecuteReader(IAsyncResult asyncResult, String endMethod, Boolean isInternal)
+   at System.Data.SqlClient.SqlCommand.EndExecuteReaderInternal(IAsyncResult asyncResult)
+   at System.Data.SqlClient.SqlCommand.EndExecuteReaderAsync(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at CodeGenerator_Project.Connection.clsConnection.<GetTableColumns>d__7.MoveNext() in C:\Users\kheli\Desktop\Wal3a\Coding\ProgrammingAdvices\Projects\CodeGenerator_Project\Connection\clsConnection.cs:line 116
+
+
+[3/12/2025 8:50:44 PM] Incorrect syntax near '@db'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.CompleteAsyncExecuteReader(Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.InternalEndExecuteReader(IAsyncResult asyncResult, String endMethod, Boolean isInternal)
+   at System.Data.SqlClient.SqlCommand.EndExecuteReaderInternal(IAsyncResult asyncResult)
+   at System.Data.SqlClient.SqlCommand.EndExecuteReaderAsync(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at CodeGenerator_Project.Connection.clsConnection.<GetTableColumns>d__7.MoveNext() in C:\Users\kheli\Desktop\Wal3a\Coding\ProgrammingAdvices\Projects\CodeGenerator_Project\Connection\clsConnection.cs:line 116
+
+
+[3/12/2025 8:50:44 PM] Incorrect syntax near '@db'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.CompleteAsyncExecuteReader(Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.InternalEndExecuteReader(IAsyncResult asyncResult, String endMethod, Boolean isInternal)
+   at System.Data.SqlClient.SqlCommand.EndExecuteReaderInternal(IAsyncResult asyncResult)
+   at System.Data.SqlClient.SqlCommand.EndExecuteReaderAsync(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at CodeGenerator_Project.Connection.clsConnection.<GetTableColumns>d__7.MoveNext() in C:\Users\kheli\Desktop\Wal3a\Coding\ProgrammingAdvices\Projects\CodeGenerator_Project\Connection\clsConnection.cs:line 116
+
+
+[3/12/2025 8:50:44 PM] Incorrect syntax near '@db'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.CompleteAsyncExecuteReader(Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.InternalEndExecuteReader(IAsyncResult asyncResult, String endMethod, Boolean isInternal)
+   at System.Data.SqlClient.SqlCommand.EndExecuteReaderInternal(IAsyncResult asyncResult)
+   at System.Data.SqlClient.SqlCommand.EndExecuteReaderAsync(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at CodeGenerator_Project.Connection.clsConnection.<GetTableColumns>d__7.MoveNext() in C:\Users\kheli\Desktop\Wal3a\Coding\ProgrammingAdvices\Projects\CodeGenerator_Project\Connection\clsConnection.cs:line 116
+
+
+[3/12/2025 8:50:44 PM] Incorrect syntax near '@db'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.CompleteAsyncExecuteReader(Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.InternalEndExecuteReader(IAsyncResult asyncResult, String endMethod, Boolean isInternal)
+   at System.Data.SqlClient.SqlCommand.EndExecuteReaderInternal(IAsyncResult asyncResult)
+   at System.Data.SqlClient.SqlCommand.EndExecuteReaderAsync(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at CodeGenerator_Project.Connection.clsConnection.<GetTableColumns>d__7.MoveNext() in C:\Users\kheli\Desktop\Wal3a\Coding\ProgrammingAdvices\Projects\CodeGenerator_Project\Connection\clsConnection.cs:line 116
+
+
+[3/12/2025 8:50:44 PM] Incorrect syntax near '@db'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.CompleteAsyncExecuteReader(Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.InternalEndExecuteReader(IAsyncResult asyncResult, String endMethod, Boolean isInternal)
+   at System.Data.SqlClient.SqlCommand.EndExecuteReaderInternal(IAsyncResult asyncResult)
+   at System.Data.SqlClient.SqlCommand.EndExecuteReaderAsync(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at CodeGenerator_Project.Connection.clsConnection.<GetTableColumns>d__7.MoveNext() in C:\Users\kheli\Desktop\Wal3a\Coding\ProgrammingAdvices\Projects\CodeGenerator_Project\Connection\clsConnection.cs:line 116
+
+
+[3/12/2025 8:50:44 PM] Incorrect syntax near '@db'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.CompleteAsyncExecuteReader(Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.InternalEndExecuteReader(IAsyncResult asyncResult, String endMethod, Boolean isInternal)
+   at System.Data.SqlClient.SqlCommand.EndExecuteReaderInternal(IAsyncResult asyncResult)
+   at System.Data.SqlClient.SqlCommand.EndExecuteReaderAsync(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at CodeGenerator_Project.Connection.clsConnection.<GetTableColumns>d__7.MoveNext() in C:\Users\kheli\Desktop\Wal3a\Coding\ProgrammingAdvices\Projects\CodeGenerator_Project\Connection\clsConnection.cs:line 116
+
+
+[3/12/2025 8:50:44 PM] Incorrect syntax near '@db'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.CompleteAsyncExecuteReader(Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.InternalEndExecuteReader(IAsyncResult asyncResult, String endMethod, Boolean isInternal)
+   at System.Data.SqlClient.SqlCommand.EndExecuteReaderInternal(IAsyncResult asyncResult)
+   at System.Data.SqlClient.SqlCommand.EndExecuteReaderAsync(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at CodeGenerator_Project.Connection.clsConnection.<GetTableColumns>d__7.MoveNext() in C:\Users\kheli\Desktop\Wal3a\Coding\ProgrammingAdvices\Projects\CodeGenerator_Project\Connection\clsConnection.cs:line 116
+
+
+[3/12/2025 8:50:44 PM] Incorrect syntax near '@db'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.CompleteAsyncExecuteReader(Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.InternalEndExecuteReader(IAsyncResult asyncResult, String endMethod, Boolean isInternal)
+   at System.Data.SqlClient.SqlCommand.EndExecuteReaderInternal(IAsyncResult asyncResult)
+   at System.Data.SqlClient.SqlCommand.EndExecuteReaderAsync(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at CodeGenerator_Project.Connection.clsConnection.<GetTableColumns>d__7.MoveNext() in C:\Users\kheli\Desktop\Wal3a\Coding\ProgrammingAdvices\Projects\CodeGenerator_Project\Connection\clsConnection.cs:line 116
+
+
+[3/12/2025 9:00:23 PM] Incorrect syntax near '@db'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.CompleteAsyncExecuteReader(Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.InternalEndExecuteReader(IAsyncResult asyncResult, String endMethod, Boolean isInternal)
+   at System.Data.SqlClient.SqlCommand.EndExecuteReaderInternal(IAsyncResult asyncResult)
+   at System.Data.SqlClient.SqlCommand.EndExecuteReaderAsync(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at CodeGenerator_Project.Connection.clsConnection.<GetTableColumns>d__7.MoveNext() in C:\Users\kheli\Desktop\Wal3a\Coding\ProgrammingAdvices\Projects\CodeGenerator_Project\Connection\clsConnection.cs:line 115
+
+
+[3/14/2025 11:03:43 AM] A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling, SqlAuthenticationProviderManager sqlAuthProviderManager)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at CodeGenerator_Project.Connection.clsConnection.<Connect>d__4.MoveNext() in C:\Users\kheli\Desktop\Wal3a\Coding\ProgrammingAdvices\Projects\CodeGenerator_Project\Connection\clsConnection.cs:line 25
+
+
+[3/14/2025 11:04:44 AM] A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling, SqlAuthenticationProviderManager sqlAuthProviderManager)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at CodeGenerator_Project.Connection.clsConnection.<Connect>d__4.MoveNext() in C:\Users\kheli\Desktop\Wal3a\Coding\ProgrammingAdvices\Projects\CodeGenerator_Project\Connection\clsConnection.cs:line 25
+
+
+[3/14/2025 2:39:59 PM] Incorrect syntax near '.'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.CompleteAsyncExecuteReader(Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.InternalEndExecuteReader(IAsyncResult asyncResult, String endMethod, Boolean isInternal)
+   at System.Data.SqlClient.SqlCommand.EndExecuteReaderInternal(IAsyncResult asyncResult)
+   at System.Data.SqlClient.SqlCommand.EndExecuteReaderAsync(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at CodeGenerator_Project.Connection.clsConnection.<GetTablesNameList>d__6.MoveNext() in C:\Users\kheli\Desktop\Wal3a\Coding\ProgrammingAdvices\Projects\CodeGenerator_Project\Connection\clsConnection.cs:line 80
+
+
+[3/14/2025 6:10:10 PM] Execution Timeout Expired.  The timeout period elapsed prior to completion of the operation or the server is not responding.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.SqlCommand.InternalEndExecuteReader(IAsyncResult asyncResult, String endMethod, Boolean isInternal)
+   at System.Data.SqlClient.SqlCommand.EndExecuteReaderInternal(IAsyncResult asyncResult)
+   at System.Data.SqlClient.SqlCommand.EndExecuteReaderAsync(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at CodeGenerator_Project.Connection.clsConnection.<GetTableColumns>d__15.MoveNext() in C:\Users\kheli\Desktop\Wal3a\Coding\ProgrammingAdvices\Projects\CodeGenerator_Project\Connection\clsConnection.cs:line 123
+
+
+[3/14/2025 6:10:10 PM] Execution Timeout Expired.  The timeout period elapsed prior to completion of the operation or the server is not responding.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.SqlCommand.InternalEndExecuteReader(IAsyncResult asyncResult, String endMethod, Boolean isInternal)
+   at System.Data.SqlClient.SqlCommand.EndExecuteReaderInternal(IAsyncResult asyncResult)
+   at System.Data.SqlClient.SqlCommand.EndExecuteReaderAsync(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at CodeGenerator_Project.Connection.clsConnection.<GetTableColumns>d__15.MoveNext() in C:\Users\kheli\Desktop\Wal3a\Coding\ProgrammingAdvices\Projects\CodeGenerator_Project\Connection\clsConnection.cs:line 123
+
+
+[3/15/2025 12:22:03 PM] A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 25 - Connection string is not valid)
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling, SqlAuthenticationProviderManager sqlAuthProviderManager)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at CodeGenerator_Project.Connection.clsConnection.<Connect>d__12.MoveNext() in C:\Users\kheli\Desktop\Wal3a\Coding\ProgrammingAdvices\Projects\CodeGenerator_Project\Connection\clsConnection.cs:line 29
+
+
+[4/20/2025 1:46:00 PM] Format of the initialization string does not conform to specification starting at index 0.
+   at System.Data.Common.DbConnectionOptions.GetKeyValuePair(String connectionString, Int32 currentPosition, StringBuilder buffer, Boolean useOdbcRules, String& keyname, String& keyvalue)
+   at System.Data.Common.DbConnectionOptions.ParseInternal(Hashtable parsetable, String connectionString, Boolean buildChain, Hashtable synonyms, Boolean firstKey)
+   at System.Data.Common.DbConnectionOptions..ctor(String connectionString, Hashtable synonyms, Boolean useOdbcRules)
+   at System.Data.SqlClient.SqlConnectionString..ctor(String connectionString)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnectionOptions(String connectionString, DbConnectionOptions previous)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnectionPoolGroup(DbConnectionPoolKey key, DbConnectionPoolGroupOptions poolOptions, DbConnectionOptions& userConnectionOptions)
+   at System.Data.SqlClient.SqlConnection.ConnectionString_Set(DbConnectionPoolKey key)
+   at System.Data.SqlClient.SqlConnection.set_ConnectionString(String value)
+   at System.Data.SqlClient.SqlConnection..ctor(String connectionString, SqlCredential credential)
+   at System.Data.SqlClient.SqlConnection..ctor(String connectionString)
+   at CodeGenerator_Project.Connection.clsConnection.<GetTableColumns>d__14.MoveNext() in C:\Users\kheli\Desktop\Wal3a\Coding\ProgrammingAdvices\Projects\CodeGenerator_Project\Connection\clsConnection.cs:line 154
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at CodeGenerator_Project.Forms.frmGenerate.<>c__DisplayClass6_1.<<btnConnect_Click>b__0>d.MoveNext() in C:\Users\kheli\Desktop\Wal3a\Coding\ProgrammingAdvices\Projects\CodeGenerator_Project\Forms\frmGenerate.cs:line 93
+
+
