@@ -401,6 +401,7 @@ namespace CodeGenerator_Project
             {
                 sb.AppendLine($"                            {column.ColumnName} = { clsUtil.GenerateConversionExpression(clsUtil.ConvertSqlTypeToCSharp(column.DataType, column.IsNullable), $"reader[\"{column.ColumnName}\"]")  };");
             }
+            sb.AppendLine("                                 isFound = false;");
             sb.AppendLine("                        }");
             sb.AppendLine("                    }");
             sb.AppendLine("                }");

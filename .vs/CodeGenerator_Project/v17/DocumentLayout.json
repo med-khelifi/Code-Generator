@@ -7,7 +7,7 @@
       "RelativeMoniker": "D:0:0:{FA16002C-7490-4644-9F71-5647700F38F0}|CodeGenerator_Project.csproj|solutionrelative:generator\\clsgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FA16002C-7490-4644-9F71-5647700F38F0}|CodeGenerator_Project.csproj|c:\\users\\kheli\\desktop\\wal3a\\coding\\programmingadvices\\projects\\codegenerator_project\\utility\\clsutil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FA16002C-7490-4644-9F71-5647700F38F0}|CodeGenerator_Project.csproj|C:\\Users\\kheli\\Desktop\\Wal3a\\Coding\\ProgrammingAdvices\\Projects\\CodeGenerator_Project\\utility\\clsutil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FA16002C-7490-4644-9F71-5647700F38F0}|CodeGenerator_Project.csproj|solutionrelative:utility\\clsutil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -30,8 +30,12 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 5,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{a80febb4-e7e0-4147-b476-21aaf2453969}"
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
@@ -46,8 +50,7 @@
               "RelativeToolTip": "Utility\\clsUtil.cs",
               "ViewState": "AgIAAJcAAAAAAAAAAAA5wCEBAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-20T16:21:45.726Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-20T16:21:45.726Z"
             },
             {
               "$type": "Document",
@@ -80,7 +83,7 @@
               "RelativeDocumentMoniker": "Generator\\clsGenerator.cs",
               "ToolTip": "C:\\Users\\kheli\\Desktop\\Wal3a\\Coding\\ProgrammingAdvices\\Projects\\CodeGenerator_Project\\Generator\\clsGenerator.cs",
               "RelativeToolTip": "Generator\\clsGenerator.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAAwPwAAACVAAAAAAAAAA==",
+              "ViewState": "AgIAAG8AAAAAAAAAAAAkwFsAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-20T12:18:51.531Z",
               "EditorCaption": ""
