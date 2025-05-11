@@ -38,8 +38,8 @@
             this.folderBrowserDialog1 = new System.Windows.Forms.FolderBrowserDialog();
             this.chkCheckAllList = new System.Windows.Forms.CheckBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.rbtnInlineSQL = new System.Windows.Forms.RadioButton();
             this.rbtnStordProcedure = new System.Windows.Forms.RadioButton();
+            this.rbtnInlineSQL = new System.Windows.Forms.RadioButton();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -182,6 +182,16 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Gnerate With";
             // 
+            // rbtnStordProcedure
+            // 
+            this.rbtnStordProcedure.AutoSize = true;
+            this.rbtnStordProcedure.Location = new System.Drawing.Point(7, 59);
+            this.rbtnStordProcedure.Name = "rbtnStordProcedure";
+            this.rbtnStordProcedure.Size = new System.Drawing.Size(133, 25);
+            this.rbtnStordProcedure.TabIndex = 1;
+            this.rbtnStordProcedure.Text = "Stored Procedures";
+            this.rbtnStordProcedure.UseVisualStyleBackColor = true;
+            // 
             // rbtnInlineSQL
             // 
             this.rbtnInlineSQL.AutoSize = true;
@@ -193,16 +203,6 @@
             this.rbtnInlineSQL.TabStop = true;
             this.rbtnInlineSQL.Text = "Inline SQL";
             this.rbtnInlineSQL.UseVisualStyleBackColor = true;
-            // 
-            // rbtnStordProcedure
-            // 
-            this.rbtnStordProcedure.AutoSize = true;
-            this.rbtnStordProcedure.Location = new System.Drawing.Point(7, 59);
-            this.rbtnStordProcedure.Name = "rbtnStordProcedure";
-            this.rbtnStordProcedure.Size = new System.Drawing.Size(133, 25);
-            this.rbtnStordProcedure.TabIndex = 1;
-            this.rbtnStordProcedure.Text = "Stored Procedures";
-            this.rbtnStordProcedure.UseVisualStyleBackColor = true;
             // 
             // frmMain
             // 
@@ -219,6 +219,7 @@
             this.Controls.Add(this.btnBrowse);
             this.Controls.Add(this.clDatabaseTabels);
             this.Controls.Add(this.label1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "frmMain";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Load += new System.EventHandler(this.frmMain_Load);

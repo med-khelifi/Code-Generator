@@ -364,7 +364,6 @@ namespace CodeGenerator_Project
             sb.AppendLine("}");
             return sb.ToString();
         }
-
         private static string GenerateDataLayerWithStoredProcedures(string tableName, List<(string ColumnName, string DataType,int? Size ,bool IsNullable)> columns)
         {
             StringBuilder sb = new StringBuilder();
@@ -394,14 +393,14 @@ namespace CodeGenerator_Project
             sb.AppendLine("                {");
             sb.AppendLine("                    connection.Open();");
             sb.AppendLine("                    using (SqlDataReader reader = command.ExecuteReader())");
-            sb.AppendLine("                    {");
+            sb.AppendLine("                    {");            
             sb.AppendLine("                        if (reader.Read())");
             sb.AppendLine("                        {");
+            sb.AppendLine("                            isFound = true;");
             foreach (var column in columns.Skip(1))
             {
                 sb.AppendLine($"                            {column.ColumnName} = { clsUtil.GenerateConversionExpression(clsUtil.ConvertSqlTypeToCSharp(column.DataType, column.IsNullable), $"reader[\"{column.ColumnName}\"]")  };");
             }
-            sb.AppendLine("                                 isFound = false;");
             sb.AppendLine("                        }");
             sb.AppendLine("                    }");
             sb.AppendLine("                }");

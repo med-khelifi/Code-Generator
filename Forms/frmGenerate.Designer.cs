@@ -158,6 +158,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.dgvTabels);
             this.Controls.Add(this.btnConnect);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "frmGenerate";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Load += new System.EventHandler(this.frmGenerate_Load);
